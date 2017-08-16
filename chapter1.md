@@ -22,9 +22,13 @@ If an identifier has already been defined in a scope, then using the identifier 
 
 `if(condition) {`
 
-   `let count = 40;`
+`let count = 40;`
 
 `// more code`
 
 `}`
+
+#### Constant Declarations {#leanpub-auto-constant-declarations}
+
+
 
