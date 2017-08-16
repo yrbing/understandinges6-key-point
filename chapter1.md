@@ -38,5 +38,23 @@ every `const`variable must be initialized on declaration
 
 ##### Constants vs Let Declarations {#leanpub-auto-constants-vs-let-declarations}
 
-Constants, like `let `declarations, are block-level declarations.
+Constants, like `let`declarations, are block-level declarations.
+
+In another similarity to
+
+`let`
+
+, a
+
+`const`
+
+declaration throws an error when made with an identifier for an already-defined variable in the same scope. It doesn’t matter if that variable was declared using
+
+`var`
+
+\(for global or function scope\) or
+
+`let`
+
+\(for block scope\). For example, consider this code:
 
