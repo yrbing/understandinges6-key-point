@@ -1,4 +1,8 @@
 # Block Bindings
 
-GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
+#### Let Declarations {#leanpub-auto-let-declarations}
+
+
+
+
 
