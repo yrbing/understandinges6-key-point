@@ -30,7 +30,13 @@ If an identifier has already been defined in a scope, then using the identifier 
 
 #### Constant Declarations {#leanpub-auto-constant-declarations}
 
-every `const `variable must be initialized on declaration
+every `const`variable must be initialized on declaration
 
+`// Syntax error: missing initialization`
 
+`const name;`
+
+##### Constants vs Let Declarations {#leanpub-auto-constants-vs-let-declarations}
+
+Constants, like `let `declarations, are block-level declarations.
 
