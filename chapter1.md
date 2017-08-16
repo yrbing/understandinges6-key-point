@@ -14,9 +14,17 @@ If an identifier has already been defined in a scope, then using the identifier 
 
 `let count = 40;`
 
-  
-  
+---
 
+`var count = 30;`
 
+`// Does not throw an error`
 
+`if(condition) {`
+
+`  let count = 40;`
+
+`  // more code`
+
+`}`
 
