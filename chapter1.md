@@ -84,6 +84,8 @@ A`const`declaration prevents modification of the binding and not of the value it
 
 #### The Temporal Dead Zone \(TDZ\) {#leanpub-auto-the-temporal-dead-zone}
 
+A variable declared with either`let`or`const`cannot be accessed until after the declaration.
+
 `if (condition) {`
 
 `console.log(typeof value);  // ReferenceError!`
@@ -91,6 +93,4 @@ A`const`declaration prevents modification of the binding and not of the value it
 `let value = "blue";`
 
 `}`
-
-
 
