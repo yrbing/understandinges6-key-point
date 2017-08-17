@@ -58,7 +58,25 @@ In another similarity to`let`, a`const`declaration throws an error when made wit
 
 `maxItems = 6; // throws error`
 
-Much like constants in other languages, the`maxItems`variable can’t be assigned a new value later on.
+Much like constants in other languages, the`maxItems`variable can’t be assigned a new value later on.However, unlike constants in other languages, the value a constant holds may be modified if it is an object.
 
-However, unlike constants in other languages, the value a constant holds may be modified if it is an object.
+A`const`declaration prevents modification of the binding and not of the value itself. That means`const`declarations for objects do not prevent modification of those objects. For example:
+
+`const person = {`
+
+  `name: "Nicholas"`
+
+`};`
+
+`// work`
+
+`person.name = "Greg";`
+
+`// throws an error`
+
+`person = {`
+
+  `name:"Greg"`
+
+`};`
 
