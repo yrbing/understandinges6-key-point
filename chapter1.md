@@ -84,5 +84,13 @@ A`const`declaration prevents modification of the binding and not of the value it
 
 #### The Temporal Dead Zone \(TDZ\) {#leanpub-auto-the-temporal-dead-zone}
 
+`if (condition) {`
+
+`console.log(typeof value);  // ReferenceError!`
+
+`let value = "blue";`
+
+`}`
+
 
 
