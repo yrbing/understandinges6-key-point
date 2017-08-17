@@ -98,3 +98,11 @@ When a JavaScript engine looks through an upcoming block and finds a variable de
 
 即使是使用 `typeof` 这个一般情况下比较safe的运算符时也是如此。但是，如果你是在变量声明的block外面：
 
+`console.log(typeof value);  // "undefined"`
+
+`if (condition) {`
+
+`let value = "blue";`
+
+`}`
+
