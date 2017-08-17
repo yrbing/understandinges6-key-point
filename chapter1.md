@@ -84,7 +84,7 @@ A`const`declaration prevents modification of the binding and not of the value it
 
 #### The Temporal Dead Zone \(TDZ\) {#leanpub-auto-the-temporal-dead-zone}
 
-A variable declared with either`let`or`const`cannot be accessed until after the declaration.
+使用`let`或`const`声明的变量 cannot be accessed until after the declaration.
 
 `if (condition) {`
 
