@@ -54,5 +54,11 @@ In another similarity to`let`, a`const`declaration throws an error when made wit
 
 ##### Declaring Objects with Const {#leanpub-auto-declaring-objects-with-const}
 
+`const maxItems = 5;`
 
+`maxItems = 6; // throws error`
+
+Much like constants in other languages, the`maxItems`variable can’t be assigned a new value later on.
+
+However, unlike constants in other languages, the value a constant holds may be modified if it is an object.
 
