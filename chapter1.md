@@ -82,7 +82,7 @@ A`const`declaration prevents modification of the binding and not of the value it
 
 `const` 阻止对binding的修改，但并不阻止对bound balue的修改。
 
-#### The Temporal Dead Zone {#leanpub-auto-the-temporal-dead-zone}
+#### The Temporal Dead Zone\(TDZ\) {#leanpub-auto-the-temporal-dead-zone}
 
 
 
