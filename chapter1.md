@@ -96,5 +96,5 @@ A`const`declaration prevents modification of the binding and not of the value it
 
 When a JavaScript engine looks through an upcoming block and finds a variable declaration, it either hoists the declaration to the top of the function or global scope \(for`var`\) or places the declaration in the TDZ \(for`let`and`const`\). Any attempt to access a variable in the TDZ results in a runtime error. That variable is only removed from the TDZ, and therefore safe to use, once execution flows to the variable declaration.
 
-即使是使用 `typeof` 这个一般情况下比较safe的运算符时也是如此。
+即使是使用 `typeof` 这个一般情况下比较safe的运算符时也是如此。但是，如果你是在变量声明的block外面：
 
