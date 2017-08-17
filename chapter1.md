@@ -42,3 +42,13 @@ Constants, like `let`declarations, are block-level declarations.
 
 In another similarity to`let`, a`const`declaration throws an error when made with an identifier for an already-defined variable in the same scope. It doesn’t matter if that variable was declared using`var`\(for global or function scope\) or`let`\(for block scope\). For example, consider this code:
 
+var message = "Hello!";
+
+let age = 25;
+
+// Each of these would throw an error.
+
+const message = "Goodbye!";
+
+const age = 30;
+
