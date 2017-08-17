@@ -80,5 +80,5 @@ A`const`declaration prevents modification of the binding and not of the value it
 
 `};`
 
-const 阻止对binding的修改，但并不阻止对bound balue的修改。
+`const` 阻止对binding的修改，但并不阻止对bound balue的修改。
 
