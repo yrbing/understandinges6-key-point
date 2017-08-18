@@ -8,13 +8,20 @@
 
 If an identifier has already been defined in a scope, then using the identifier in a`let`declaration inside that scope causes an error to be thrown. For example:
 
-`var count = 30;`
+```javascript
+var count = 30;
+// Syntax error
+let count = 40;
+```
 
-`// Syntax error`
-
-`let count = 40;`
-
----
+```
+var count = 30;
+// Does not throw an error
+if(condition) {
+let count = 40;
+// more code
+}
+```
 
 `var count = 30;`
 
@@ -158,17 +165,17 @@ To fix this problem, developers use **immediately-invoked function expressions \
 
 `for (let i = 0; i < 10; i++) {`
 
-`    funcs.push(function() {`
+`funcs.push(function() {`
 
-`        console.log(i);`
+`console.log(i);`
 
-`    });`
+`});`
 
 `}`
 
 `funcs.forEach(function(func) {`
 
-`    func();     // outputs 0, then 1, then 2, up to 9`
+`func();     // outputs 0, then 1, then 2, up to 9`
 
 `})`
 
