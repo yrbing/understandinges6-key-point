@@ -74,35 +74,18 @@ person = {
 };
 ```
 
-`name: "Nicholas"`
-
-`};`
-
-`// work`
-
-`person.name = "Greg";`
-
-`// throws an error`
-
-`person = {`
-
-`name:"Greg"`
-
-`};`
-
 `const` 阻止对binding的修改，但并不阻止对bound balue的修改。
 
 #### The Temporal Dead Zone \(TDZ\) {#leanpub-auto-the-temporal-dead-zone}
 
 使用`let`或`const`声明的变量 cannot be accessed until after the declaration.
 
-`if (condition) {`
-
-`console.log(typeof value);  // ReferenceError!`
-
-`let value = "blue";`
-
-`}`
+```javascript
+if (condition) {
+    console.log(typeof value);  // ReferenceError!
+    let value = "blue";
+}
+```
 
 When a JavaScript engine looks through an upcoming block and finds a variable declaration, it either hoists the declaration to the top of the function or global scope \(for`var`\) or places the declaration in the TDZ \(for`let`and`const`\). Any attempt to access a variable in the TDZ results in a runtime error. That variable is only removed from the TDZ, and therefore safe to use, once execution flows to the variable declaration.
 
