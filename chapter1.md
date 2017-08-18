@@ -137,21 +137,18 @@ funcs.forEach(function(func) {
 
 #### Let Declarations in Loops {#leanpub-auto-let-declarations-in-loops}
 
-`var funcs = [];`
+```js
+var funcs = [];
+for (let i = 0; i < 10; i++) {
+    funcs.push(function() {
+        console.log(i);
+    });
+}
 
-`for (let i = 0; i < 10; i++) {`
+funcs.forEach(function(func) {
+    func();     // outputs 0, then 1, then 2, up to 9
+})
+```
 
-`funcs.push(function() {`
 
-`console.log(i);`
-
-`});`
-
-`}`
-
-`funcs.forEach(function(func) {`
-
-`func();     // outputs 0, then 1, then 2, up to 9`
-
-`})`
 
