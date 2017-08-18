@@ -23,16 +23,6 @@ if(condition) {
 }
 ```
 
-`// Does not throw an error`
-
-`if(condition) {`
-
-`let count = 40;`
-
-`// more code`
-
-`}`
-
 #### Constant Declarations {#leanpub-auto-constant-declarations}
 
 every `const`variable must be initialized on declaration
