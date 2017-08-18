@@ -116,15 +116,17 @@ When a JavaScript engine looks through an upcoming block and finds a variable de
 
 `for (var i = 0; i < 10; i++) {`
 
-`  funcs.push(function() { console.log(i); });`
+`funcs.push(function() { console.log(i); });`
 
 `}`
 
 `funcs.forEach(function(func) {`
 
-`  func();  // outputs the number "10" ten times`
+`func();  // outputs the number "10" ten times`
 
 `});`
+
+To fix this problem, developers use **immediately-invoked function expressions \(IIFEs\) **inside of loops to force a new copy of the variable they want to iterate over to be created, as in this example:
 
 #### Let Declarations in Loops {#leanpub-auto-let-declarations-in-loops}
 
