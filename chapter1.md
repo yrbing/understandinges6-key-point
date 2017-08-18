@@ -106,12 +106,27 @@ When a JavaScript engine looks through an upcoming block and finds a variable de
 
 `}`
 
-`typeof`运算符执行时，变量`value `不在TDZ 。because it occurs outside of the block in which`value`is declared. That means there is no`value`binding, and`typeof`simply returns`"undefined"`.
+`typeof`运算符执行时，变量`value`不在TDZ 。because it occurs outside of the block in which`value`is declared. That means there is no`value`binding, and`typeof`simply returns`"undefined"`.
 
 ### Block Binding in Loops {#leanpub-auto-block-binding-in-loops}
 
-Perhaps one area where developers most want block level scoping of variables is within`for`loops, where the throwaway counter variable is meant to be used only inside the loop. For instance, it’s not uncommon to see code like this in JavaScript:
+#### Functions in Loops {#leanpub-auto-functions-in-loops}
 
-  
+`var funcs = [];`
+
+`for (var i = 0; i < 10; i++) {`
+
+`  funcs.push(function() { console.log(i); });`
+
+`}`
+
+`funcs.forEach(function(func) {`
+
+`  func();  // outputs the number "10" ten times`
+
+`});`
+
+#### Let Declarations in Loops {#leanpub-auto-let-declarations-in-loops}
+
 
 
