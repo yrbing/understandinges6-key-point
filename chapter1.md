@@ -14,15 +14,19 @@ var count = 30;
 let count = 40;
 ```
 
-    ```javascript
-    var count = 30;
+    ```javascriptvar count = 30;
     // Does not throw an error
     if(condition) {
     let count = 40;
     // more code
     }
 
-`var count = 30;`
+    ```javascript
+
+
+```javascript
+var count = 30;
+```
 
 `// Does not throw an error`
 
