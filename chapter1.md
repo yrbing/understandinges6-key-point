@@ -104,7 +104,17 @@ if (condition) {
 
 #### Functions in Loops {#leanpub-auto-functions-in-loops}
 
-`var funcs = [];`
+```javascript
+var funcs = [];
+
+for (var i = 0; i < 10; i++) {
+    funcs.push(function() { console.log(i); });
+}
+
+funcs.forEach(function(func) {
+    func();  // outputs the number "10" ten times
+});
+```
 
 `for (var i = 0; i < 10; i++) {`
 
