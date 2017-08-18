@@ -10,12 +10,14 @@ If an identifier has already been defined in a scope, then using the identifier 
 
 ```js
 var count = 30;
+
 // Syntax error
 let count = 40;
 ```
 
 ```js
 var count = 30;
+
 // Does not throw an error
 if(condition) {
     let count = 40;
@@ -27,9 +29,10 @@ if(condition) {
 
 every `const`variable must be initialized on declaration
 
-`// Syntax error: missing initialization`
-
-`const name;`
+```js
+// Syntax error: missing initialization
+const name;
+```
 
 ##### Constants vs Let Declarations {#leanpub-auto-constants-vs-let-declarations}
 
@@ -37,15 +40,13 @@ Constants, like `let`declarations, are block-level declarations.
 
 In another similarity to`let`, a`const`declaration throws an error when made with an identifier for an already-defined variable in the same scope. It doesn’t matter if that variable was declared using`var`\(for global or function scope\) or`let`\(for block scope\). For example, consider this code:
 
-`var message = "Hello!";`
-
-`let age = 25;`
-
-`// Each of these would throw an error.`
-
-`const message = "Goodbye!";`
-
-`const age = 30;`
+```js
+var message = "Hello!";
+let age = 25;
+// Each of these would throw an error.
+const message = "Goodbye!";
+const age = 30;
+```
 
 ##### Declaring Objects with Const {#leanpub-auto-declaring-objects-with-const}
 
