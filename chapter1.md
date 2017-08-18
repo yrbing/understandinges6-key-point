@@ -43,6 +43,7 @@ In another similarity to`let`, a`const`declaration throws an error when made wit
 ```js
 var message = "Hello!";
 let age = 25;
+
 // Each of these would throw an error.
 const message = "Goodbye!";
 const age = 30;
