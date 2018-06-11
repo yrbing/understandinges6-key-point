@@ -1,5 +1,10 @@
 ## Block-Level Declarations
 
+Block scopes, also called lexical scopes（词法作用域）：
+
+1. 在function内部
+2. 在一个block内部（被“{”和“}”包含）
+
 ### Let Declarations
 
 除了是块级作用域之外，也不会 declaration hoisting。或者就是因为hoisting才导致var不是块级作用域
