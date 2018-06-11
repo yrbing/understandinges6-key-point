@@ -24,6 +24,8 @@ let count = 40;
 
 但如果在子scope中，则不会报错：
 
+在if块中，新的变量覆盖了global的count变量。
+
 ```js
 var count = 30;
 
@@ -34,7 +36,7 @@ if(condition) {
 }
 ```
 
-#### Constant Declarations {#leanpub-auto-constant-declarations}
+### Constant Declarations
 
 every `const`variable must be initialized on declaration
 
