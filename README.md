@@ -1,4 +1,6 @@
 # Introduction
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+JavaScript核心语言标准ECMA-262，据此标准定义的语言叫做ECMAScript。
+
+JavaScript in browsers 和 Node.js 实际上是 ECMAScript 的超集。
 
