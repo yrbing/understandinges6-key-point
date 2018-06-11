@@ -1,3 +1,5 @@
+## Overview
+
 **Chapter 1: How Block Bindings Work **talks about`let`and`const`, the block-level replacement for`var`.
 
 **Chapter 2: Strings and Regular Expressions **covers additional functionality for string manipulation and inspection as well as the introduction of template strings.
