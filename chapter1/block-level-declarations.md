@@ -22,6 +22,8 @@ var count = 30;
 let count = 40;
 ```
 
+但如果在子scope中，则不会报错：
+
 ```js
 var count = 30;
 
