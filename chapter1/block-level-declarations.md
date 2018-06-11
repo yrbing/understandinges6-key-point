@@ -8,12 +8,12 @@ Block scopes, also called lexical scopes（词法作用域）：
 ### Let Declarations
 
 1. 块级作用域
-2. 不会 declaration hoisting
+2. no declaration hoisting 不会声明提升
 3. no redeclaration 不能重复声明
 
 #### No Redeclaration {#leanpub-auto-no-redeclaration}
 
-If an identifier has already been defined in a scope, then using the identifier in a`let`declaration inside that scope causes an error to be thrown. For example:
+如果一个标识符（identifier）已经被定义在某个scope，在这个scope种用 let 声明这个标识符会抛出error：
 
 ```js
 var count = 30;
