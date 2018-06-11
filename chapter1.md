@@ -1,5 +1,7 @@
 # Block Bindings
 
+大多数C-based语言，variables \(or _bindings_\) 在声明的地方被创建。
+
 #### Let Declarations {#leanpub-auto-let-declarations}
 
 除了是块级作用域之外，也不会 declaration hoisting。或者就是因为hoisting才导致var不是块级作用域
