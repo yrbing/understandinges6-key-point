@@ -3,15 +3,18 @@
 Block scopes, also called lexical scopes（词法作用域）：
 
 1. 在function内部
+
 2. 在一个block内部（被“{”和“}”包含）
 
 ### Let Declarations
 
 1. 块级作用域
-2. no declaration hoisting 不会声明提升
-3. no redeclaration 不能重复声明
 
-#### No Redeclaration {#leanpub-auto-no-redeclaration}
+2. no declaration hoisting 不会声明提升
+
+1. no redeclaration 不能重复声明
+
+**No Redeclaration**
 
 如果一个标识符（identifier）已经被定义在某个scope，在这个scope种用 let 声明这个标识符会抛出error：
 
@@ -38,18 +41,27 @@ if(condition) {
 
 ### Constant Declarations
 
-every `const`variable must be initialized on declaration
+用const声明的变量被认为是constants, 一旦被定义则无法修改它们的值。
+
+因此，每个const变量，都必须在声明的时候被初始化：
 
 ```js
+// Valid constant
+const maxItems = 30;
+
 // Syntax error: missing initialization
 const name;
 ```
 
-##### Constants vs Let Declarations {#leanpub-auto-constants-vs-let-declarations}
+### Constants vs Let Declarations
 
-Constants, like `let`declarations, are block-level declarations.
+相同点
 
-In another similarity to`let`, a`const`declaration throws an error when made with an identifier for an already-defined variable in the same scope. It doesn’t matter if that variable was declared using`var`\(for global or function scope\) or`let`\(for block scope\). For example, consider this code:
+1. 块级作用域
+
+2. no declaration hoisting 不会声明提升
+
+3. no redeclaration 不能重复声明
 
 ```js
 var message = "Hello!";
@@ -60,7 +72,9 @@ const message = "Goodbye!";
 const age = 30;
 ```
 
-##### Declaring Objects with Const {#leanpub-auto-declaring-objects-with-const}
+不同点
+
+1. const 不能重复赋值
 
 ```javascript
 const maxItems = 5;
