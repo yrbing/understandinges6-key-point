@@ -103,7 +103,7 @@ person = {
 
 ### The Temporal Dead Zone \(TDZ\)
 
-使用`let`或`const`声明的变量直到声明之后才能被获取。
+TDZ: 描述为什么 let 和 const 变量在声明之前不能获取。
 
 ```javascript
 if (condition) {
@@ -112,7 +112,15 @@ if (condition) {
 }
 ```
 
-When a JavaScript engine looks through an upcoming block and finds a variable declaration, it either hoists the declaration to the top of the function or global scope \(for`var`\) or places the declaration in the TDZ \(for`let`and`const`\). Any attempt to access a variable in the TDZ results in a runtime error. That variable is only removed from the TDZ, and therefore safe to use, once execution flows to the variable declaration.
+ 任何尝试在TDZ中获取变量的操作都会导致runtime error。
+
+
+
+使用`let`或`const`声明的变量直到声明之后才能被获取。
+
+value 在 TDZ中是存在的。
+
+
 
 即使是使用 `typeof` 这个一般情况下比较safe的运算符时也是如此。但是，如果你是在变量声明的block外面：
 
