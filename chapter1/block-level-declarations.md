@@ -12,7 +12,7 @@ Block scopes, also called lexical scopes（词法作用域）：
 
 2. no declaration hoisting 不会声明提升
 
-1. no redeclaration 不能重复声明
+3. no redeclaration 不能重复声明
 
 **No Redeclaration**
 
@@ -74,16 +74,18 @@ const age = 30;
 
 不同点
 
-1. const 不能重复赋值
+1. const 不能重复赋值（objects有其特殊性）
 
 ```javascript
 const maxItems = 5;
 maxItems = 6; // throws error
 ```
 
-Much like constants in other languages, the`maxItems`variable can’t be assigned a new value later on.However, unlike constants in other languages, the value a constant holds may be modified if it is an object.
+像其他语言的const一样，maxItems变量不能被赋予一个新值。但和其他语言不同的是，如果const存储的是一个对象，它的值是可能可以改变的。
 
-A`const`declaration prevents modification of the binding and not of the value itself. That means`const`declarations for objects do not prevent modification of those objects. For example:
+**Declaring Objects with Const**
+
+const声明阻止修改binding而不是value本身。
 
 ```js
 const person = {
