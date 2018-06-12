@@ -6,7 +6,7 @@
   * [Var Declarations and Hoisting](chapter1/var-declarations-and-hoisting.md)
   * [Block-Level Declarations](chapter1/block-level-declarations.md)
   * [Block Binding in Loops](chapter1/block-binding-in-loops.md)
-  * Global Block Bindings
+  * [Global Block Bindings](chapter1/global-block-bindings.md)
   * Emerging Best Practices for Block Bindings
   * Summary
 
