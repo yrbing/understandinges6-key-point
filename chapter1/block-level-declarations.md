@@ -129,7 +129,7 @@ if (condition) {
 }
 ```
 
-`typeof`运算符执行时，变量`value`不在TDZ 。
+`typeof`运算符执行时，变量`value`不在TDZ 。这说明这里没有
 
 ###  {#leanpub-auto-block-binding-in-loops}
 
