@@ -85,7 +85,7 @@ maxItems = 6; // throws error
 
 **Declaring Objects with Const**
 
-const声明阻止修改binding而不是value本身。
+`const` 阻止对binding的修改，但并不阻止对bound value的修改。
 
 ```js
 const person = {
@@ -101,7 +101,7 @@ person = {
 };
 ```
 
-`const` 阻止对binding的修改，但并不阻止对bound balue的修改。
+
 
 #### The Temporal Dead Zone \(TDZ\) {#leanpub-auto-the-temporal-dead-zone}
 
