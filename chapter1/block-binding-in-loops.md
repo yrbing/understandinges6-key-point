@@ -1,5 +1,7 @@
 ## Block Binding in Loops
 
+我们想要的是 throwaway counter variable 一次性使用的计算变量
+
 ### Functions in Loops
 
 ```javascript
