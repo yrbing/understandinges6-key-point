@@ -1,6 +1,6 @@
 ## Block Binding in Loops
 
-#### Functions in Loops {#leanpub-auto-functions-in-loops}
+### Functions in Loops
 
 ```javascript
 var funcs = [];
@@ -33,7 +33,7 @@ funcs.forEach(function(func) {
 
 上面这个例子在循环中用到了IIFE，块级绑定`let`和`const`可以简化这个循环。
 
-#### Let Declarations in Loops {#leanpub-auto-let-declarations-in-loops}
+### Let Declarations in Loops
 
 ```js
 var funcs = [];
@@ -47,6 +47,8 @@ funcs.forEach(function(func) {
     func();     // outputs 0, then 1, then 2, up to 9
 })
 ```
+
+### Constant Declarations in Loops
 
 
 
