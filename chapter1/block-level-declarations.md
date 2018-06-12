@@ -116,7 +116,7 @@ if (condition) {
 }
 ```
 
-上面的console语句执行时，value 在 TDZ中是存在的。
+上面的 typeof 语句执行时，value 在 TDZ 中是存在的。
 
 That variable is only removed from the TDZ, and therefore safe to use, once execution flows to the variable declaration.
 
@@ -129,7 +129,7 @@ if (condition) {
 }
 ```
 
-`typeof`运算符执行时，变量`value`不在TDZ 。because it occurs outside of the block in which`value`is declared. That means there is no`value`binding, and`typeof`simply returns`"undefined"`.
+`typeof`运算符执行时，变量`value`不在TDZ 。
 
 ###  {#leanpub-auto-block-binding-in-loops}
 
