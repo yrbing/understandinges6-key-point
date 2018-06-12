@@ -131,6 +131,8 @@ if (condition) {
 
 `typeof`运算符执行时，变量`value`不在TDZ 。这说明这里没有 value binding，typeof 简单返回 ”undefined“。
 
+TDZ是block bindings的一个特别的地方，另一个特别的部分是在loops中应用它们。
+
 ###  {#leanpub-auto-block-binding-in-loops}
 
 
