@@ -105,7 +105,7 @@ person = {
 
 TDZ: 描述为什么 let 和 const 变量在声明之前不能获取。
 
-任何尝试在TDZ中获取变量的操作都会导致runtime error。
+**任何尝试在TDZ中获取变量的操作都会导致runtime error。**
 
 使用`let`或`const`声明的变量直到声明之后才能被获取。
 
@@ -116,9 +116,7 @@ if (condition) {
 }
 ```
 
-
-
-value 在 TDZ中是存在的。
+上面的console语句执行时，value 在 TDZ中是存在的。
 
 That variable is only removed from the TDZ, and therefore safe to use, once execution flows to the variable declaration.
 
