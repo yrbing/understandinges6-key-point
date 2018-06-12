@@ -101,9 +101,7 @@ person = {
 };
 ```
 
-
-
-#### The Temporal Dead Zone \(TDZ\) {#leanpub-auto-the-temporal-dead-zone}
+### The Temporal Dead Zone \(TDZ\)
 
 使用`let`或`const`声明的变量 cannot be accessed until after the declaration.
 
