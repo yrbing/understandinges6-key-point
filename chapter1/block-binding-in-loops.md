@@ -16,6 +16,8 @@ funcs.forEach(function(func) {
 });
 ```
 
+这是因为 i 在循环的每个迭代中是 share 的。
+
 To fix this problem, developers use **immediately-invoked function expressions \(IIFEs\) **inside of loops to force a new copy of the variable they want to iterate over to be created, as in this example:
 
 ```javascript
