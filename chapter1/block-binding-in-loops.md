@@ -20,9 +20,7 @@ funcs.forEach(function(func) {
 
 （That’s because `i `is **shared** across each iteration of the loop, meaning the functions created inside the loop all hold a **reference** to the same variable.）
 
-**immediately-invoked function expressions \(IIFEs\)——**
-
-To fix this problem, developers use **immediately-invoked function expressions \(IIFEs\) **inside of loops to force a new copy of the variable they want to iterate over to be created, as in this example:
+为了解决这个问题，在循环中使用 **immediately-invoked function expressions \(IIFEs\)  :**
 
 ```javascript
 var funcs = [];
