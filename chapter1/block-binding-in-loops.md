@@ -16,7 +16,11 @@ funcs.forEach(function(func) {
 });
 ```
 
-**这是因为 i 在循环的每个迭代中是 share 的。**
+**这是因为 i 在循环的每个迭代中是 share 的，循环里面创建的函数都保存着一份对同一变量的 **reference。
+
+（That’s because `i `is **shared** across each iteration of the loop, meaning the functions created inside the loop all hold a **reference** to the same variable.）
+
+当循环结束时，变量 i 的值是 10。
 
 To fix this problem, developers use **immediately-invoked function expressions \(IIFEs\) **inside of loops to force a new copy of the variable they want to iterate over to be created, as in this example:
 
