@@ -16,9 +16,9 @@ funcs.forEach(function(func) {
 });
 ```
 
-**这是因为 i 在循环的每个迭代中是 share 的，循环里面创建的函数都保存着一份对同一变量的 **reference。当循环结束时，变量 i 的值是 10。
+这是因为 i 在循环的每个迭代中是** share **的**，**循环里面创建的函数都保存着一份对同一变量的** reference**。当循环结束时，变量 i 的值是 10。
 
-（That’s because `i`is **shared** across each iteration of the loop, meaning the functions created inside the loop all hold a **reference** to the same variable.）
+（That’s because `i `is **shared** across each iteration of the loop, meaning the functions created inside the loop all hold a **reference** to the same variable.）
 
 **immediately-invoked function expressions \(IIFEs\)——**
 
