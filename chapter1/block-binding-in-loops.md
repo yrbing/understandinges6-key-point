@@ -70,6 +70,5 @@ funcs.forEach(function(func) {
 
 ### Constant Declarations in Loops
 
-  
 
 
