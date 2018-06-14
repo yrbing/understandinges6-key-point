@@ -13,5 +13,5 @@ var ncz = "Hi!";
 console.log(window.ncz);        // "Hi!"
 ```
 
-
+**let 或者 const 在 global scope：**
 
