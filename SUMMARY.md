@@ -15,4 +15,5 @@
   * Other Regular Expression Changes
   * Template Literals
   * Summary
+* Functions
 
