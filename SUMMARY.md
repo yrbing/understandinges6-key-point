@@ -9,4 +9,10 @@
   * [Global Block Bindings](chapter1/global-block-bindings.md)
   * [Emerging Best Practices for Block Bindings](chapter1/emerging-best-practices-for-block-bindings.md)
   * [Summary](chapter1/summary.md)
+* [Strings and Regular Expressions](regular-expressions.md)
+  * [Better Unicode Support](regular-expressions/better-unicode-support.md)
+  * Other String Changes
+  * Other Regular Expression Changes
+  * Template Literals
+  * Summary
 
