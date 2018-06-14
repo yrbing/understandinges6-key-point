@@ -18,7 +18,7 @@ funcs.forEach(function(func) {
 
 这是因为 i 在循环的每个迭代中是** share **的**，**循环里面创建的函数都保存着一份对同一变量的** reference**。当循环结束时，变量 i 的值是 10。
 
-（That’s because `i `is **shared** across each iteration of the loop, meaning the functions created inside the loop all hold a **reference** to the same variable.）
+（That’s because `i`is **shared** across each iteration of the loop, meaning the functions created inside the loop all hold a **reference** to the same variable.）
 
 为了解决这个问题，在循环中使用 **immediately-invoked function expressions \(IIFEs\)  :**
 
@@ -37,7 +37,9 @@ funcs.forEach(function(func) {
 });
 ```
 
-上面这个例子在循环中用到了IIFE，块级绑定`let`和`const`可以简化这个循环。
+上面这个例子在循环中用到了IIFE。
+
+块级绑定`let`和`const`可以简化这个循环。
 
 ### Let Declarations in Loops
 
