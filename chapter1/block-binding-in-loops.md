@@ -76,5 +76,5 @@ funcs.forEach(function(func) {
 
 ECMAScript 6 规范没有明确的不允许在 loops 中应用 const 声明。
 
-然而，使用不同类型的loop，行为是不同的。
+然而，使用不同类型的loop，const 的行为是不同的。
 
