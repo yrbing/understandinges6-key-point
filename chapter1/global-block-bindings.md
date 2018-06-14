@@ -26,5 +26,5 @@ console.log(ncz);                       // "Hi!"
 console.log("ncz" in window);           // false
 ```
 
-
+因此，当你不想在全局对象上创建属性的时候，用 let 和 const 更加安全。
 
