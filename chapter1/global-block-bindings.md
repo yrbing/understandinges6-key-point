@@ -13,5 +13,5 @@ var ncz = "Hi!";
 console.log(window.ncz);        // "Hi!"
 ```
 
-**let 或者 const 在 global scope：**
+**let 或者 const 在 global scope：**在 global scope 中创建了一个新的 binding，但没有给全局对象添加任何属性。
 
