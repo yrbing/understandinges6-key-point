@@ -1,3 +1,7 @@
+## 
+
+## 
+
 ## Block Binding in Loops
 
 我们最想要的是 throwaway counter variable 一次性使用的计算变量。
@@ -70,6 +74,5 @@ funcs.forEach(function(func) {
 
 ### Constant Declarations in Loops
 
-  
 
 
