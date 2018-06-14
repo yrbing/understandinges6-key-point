@@ -74,5 +74,5 @@ funcs.forEach(function(func) {
 
 ### Constant Declarations in Loops
 
-
+ECMAScript 6 规范没有明确的不允许在 loops 中应用 const 声明。
 
