@@ -15,3 +15,16 @@ console.log(window.ncz);        // "Hi!"
 
 **let 或者 const 在 global scope：**在 global scope 中创建了一个新的 binding，但没有给全局对象添加任何属性。因此不能用 let 或 const **overwrite** 一个 全局变量，只能 **shadow** it。
 
+```js
+// in a browser
+let RegExp = "Hello!";
+console.log(RegExp);                    // "Hello!"
+console.log(window.RegExp === RegExp);  // false
+
+const ncz = "Hi!";
+console.log(ncz);                       // "Hi!"
+console.log("ncz" in window);           // false
+```
+
+
+
