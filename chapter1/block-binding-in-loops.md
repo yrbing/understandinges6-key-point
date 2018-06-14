@@ -58,6 +58,8 @@ funcs.forEach(function(func) {
 
 每一次循环，let 声明创建了一个新的变量 i 。所以每一次循环创建的函数都得到了一份属于自己的 i 的拷贝。
 
+对于`for-in`和 `for-of 来说也是一样的。`
+
 ### Constant Declarations in Loops
 
 
