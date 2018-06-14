@@ -58,9 +58,18 @@ funcs.forEach(function(func) {
 
 每一次循环，let 声明创建了一个新的变量 i 。所以每一次循环创建的函数都得到了一份属于自己的 i 的拷贝。
 
-对于`for-in`和 `for-of `来说也是一样的。 
+对于`for-in`和 `for-of`来说也是一样的。
+
+#### **It’s important to understand**
+
+> **let 声明在 loops 中的行为是在标准中特别定义的（specially-defined behavior in the specification）。**
+>
+> **和 let 的 non-hoisting 特性并没有什么必然联系。**
+>
+> **事实上，早期的 let 并没有这个行为，是在发展过程中后来加上的。**
 
 ### Constant Declarations in Loops
 
+  
 
 
