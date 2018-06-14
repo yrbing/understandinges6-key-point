@@ -56,6 +56,8 @@ funcs.forEach(function(func) {
 })
 ```
 
+每一次循环，let 声明创建了一个新的变量 i 。
+
 ### Constant Declarations in Loops
 
 
