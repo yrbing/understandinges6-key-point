@@ -12,6 +12,8 @@ _code unit_
 
 _code points_
 
+
+
 ### The String.fromCodePoint\(\) Method
 
 ### The normalize\(\) Method
