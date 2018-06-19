@@ -10,6 +10,8 @@ _code unit_
 
 _code points_
 
+Unicode 希望能提供一个 globally unique identifier 
+
 限制 character 的长度为 16 bits，
 
 ### The codePointAt\(\) Method
