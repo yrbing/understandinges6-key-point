@@ -10,9 +10,9 @@ _code unit_
 
 _code points_
 
+
+
 ### The codePointAt\(\) Method
-
-
 
 ### The String.fromCodePoint\(\) Method
 
