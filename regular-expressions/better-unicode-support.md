@@ -10,7 +10,7 @@ _code unit_
 
 _code points_
 
-
+限制 character 的长度为 16 bits，
 
 ### The codePointAt\(\) Method
 
