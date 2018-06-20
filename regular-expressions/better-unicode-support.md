@@ -10,7 +10,7 @@ _code unit_
 
 _code points_
 
-Unicode 希望能给世界上的每一个字符提供一个 globally unique identifier，限制 character 的长度为 16 bits 是无法实现这个愿望的。这些 globally unique identifiers，被称作 _code points，_是从 0 开始的简单数字。
+Unicode 希望能给世界上的每一个字符提供一个 globally unique identifier，限制 character 的长度为 16 bits 是无法实现这个愿望的。这些 globally unique identifiers，被称作 _code points，_是从 0 开始的简单数字。_code points _可以被认为是字符编码 character codes，既一个 number 代表 一个 character。
 
 _code points_
 
