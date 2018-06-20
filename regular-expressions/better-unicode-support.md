@@ -20,6 +20,8 @@ _surrogate pairs_
 
 所有不在这个范围内的被认为是在一个 _supplementary planes _中，code points 不能被表示为 16-bits。UTF-16 通过引入 _surrogate pairs _来解决这个问题，即 一个 code point 表示为 两个 16-bits 的 code units。
 
+
+
 ### The codePointAt\(\) Method
 
 ### The String.fromCodePoint\(\) Method
