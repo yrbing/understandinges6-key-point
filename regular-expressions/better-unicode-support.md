@@ -14,7 +14,7 @@ Unicode 希望能给世界上的每一个字符提供一个 globally unique iden
 
 _Basic Multilingual Plane \(BMP\)_
 
-UTF-16中，最初的 2[^16] 个 code points 是 single 16-bit code units。这个范围叫做 _Basic Multilingual Plane \(BMP\)。_所有不在这个范围内的被认为是在一个 _supplementary planes _中。
+UTF-16中，最初的 2[^16] 个 code points 是 single 16-bit code units。这个范围叫做 _Basic Multilingual Plane \(BMP\)。_所有不在这个范围内的被认为是在一个 _supplementary planes _中，code points 不能被表示为 16-bits。
 
 ### The codePointAt\(\) Method
 
