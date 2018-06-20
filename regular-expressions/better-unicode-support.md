@@ -12,11 +12,9 @@ _code points_
 
 Unicode 希望能给世界上的每一个字符提供一个 globally unique identifier，限制 character 的长度为 16 bits 是无法实现这个愿望的。这些 globally unique identifiers，被称作 _code points，_是从 0 开始的简单数字。_code points _可以被认为是字符编码 character codes，既一个 number 代表 一个 character。character 的编码需要把 code points 编码成一致的 code units。对于 UTF-16, code points 可能是由多个 code units组成的。
 
-_code points_
-
-,
-
 _Basic Multilingual Plane \(BMP\)_
+
+UTF-16中，最初的 2[^16] 个 code points 是 single 16-bit code units。
 
 ### The codePointAt\(\) Method
 
@@ -26,5 +24,5 @@ _Basic Multilingual Plane \(BMP\)_
 
 ### The Regular Expression u Flag
 
-
+ote here.[^16]
 
