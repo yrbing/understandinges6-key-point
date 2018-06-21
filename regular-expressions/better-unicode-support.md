@@ -57,6 +57,15 @@ console.log(text.codePointAt(2));   // 97
 
 `codePointAt()`是最简单的区分一个 character 是由一个还是两个 code units 组成的方法。
 
+```js
+function is32Bit(c) {
+    return c.codePointAt(0) > 0xFFFF;
+}
+
+console.log(is32Bit("𠮷"));         // true
+console.log(is32Bit("a"));          // false
+```
+
 ### The String.fromCodePoint\(\) Method
 
 ### The normalize\(\) Method
