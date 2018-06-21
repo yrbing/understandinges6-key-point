@@ -37,6 +37,8 @@ console.log(text.charCodeAt(1));    // 57271
 
 ### The codePointAt\(\) Method
 
+`codePointAt()`method
+
 ### The String.fromCodePoint\(\) Method
 
 ### The normalize\(\) Method
