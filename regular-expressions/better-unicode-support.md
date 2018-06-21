@@ -55,7 +55,7 @@ console.log(text.codePointAt(2));   // 97
 
 对于 non-BMP characters 则不同。`codePointAt()`返回完整的 code point，尽管 code point 跨越多个 code units。
 
-`codePointAt()`是最简单的区分一个 character 是由一个还是两个 code units.
+`codePointAt()`是最简单的区分一个 character 是由一个还是两个 code units 组成的方法。
 
 ### The String.fromCodePoint\(\) Method
 
