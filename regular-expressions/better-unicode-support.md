@@ -24,6 +24,17 @@
 
 ECMAScript 5 中，所有的string操作都是工作在 16-bit code units 上的，当UTF-16编码字符串包括 surrogate pairs 时，可能会得到不符合预期的结果。
 
+```js
+var text = "𠮷";
+
+console.log(text.length);           // 2
+console.log(/^.$/.test(text));      // false
+console.log(text.charAt(0));        // ""
+console.log(text.charAt(1));        // ""
+console.log(text.charCodeAt(0));    // 55362
+console.log(text.charCodeAt(1));    // 57271
+```
+
 ### The codePointAt\(\) Method
 
 ### The String.fromCodePoint\(\) Method
