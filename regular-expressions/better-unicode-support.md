@@ -51,6 +51,10 @@ console.log(text.codePointAt(1));   // 57271
 console.log(text.codePointAt(2));   // 97
 ```
 
+对于BMP characters，`codePointAt()`方法与 `charCodeAt() `返回同样的值。
+
+对于 non-BMP characters 则不同。
+
 ### The String.fromCodePoint\(\) Method
 
 ### The normalize\(\) Method
