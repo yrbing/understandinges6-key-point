@@ -22,9 +22,7 @@
 >
 > 这就意味着，string中的任何一个单个的 character，既有可能是一个 code unit（16 bits）for BMP character，也有可能是两个 code units（32 bits）for supplementary plane characters。
 
-
-
-ECMAScript 5 中，所有的string操作都是工作在 16-bit code units 上的，
+ECMAScript 5 中，所有的string操作都是工作在 16-bit code units 上的，当UTF-16编码字符串包括 surrogate pairs 时，可能会得到不符合预期的结果。
 
 ### The codePointAt\(\) Method
 
