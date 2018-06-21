@@ -20,7 +20,7 @@ _surrogate pairs_
 
 所有不在这个范围内的被认为是在一个 _supplementary planes _中，code points 不能被表示为 16-bits。UTF-16 通过引入 _surrogate pairs _来解决这个问题，即 一个 code point 表示为 两个 16-bits 的 code units。
 
-这就意味着，string中的任何一个单个的 character，既有可能是一个 code unit（），也有可能是两个 code units（）。
+这就意味着，string中的任何一个单个的 character，既有可能是一个 code unit（16 bits）for BMP character，也有可能是两个 code units（32 bits）for supplementary plane characters。
 
 ### The codePointAt\(\) Method
 
