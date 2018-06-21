@@ -37,7 +37,7 @@ console.log(text.charCodeAt(1));    // 57271
 
 ### The codePointAt\(\) Method
 
-`codePointAt()`method
+`codePointAt()`
 
 ```js
 var text = "𠮷a";
