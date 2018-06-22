@@ -84,7 +84,7 @@ console.log(String.fromCodePoint(134071));  // "𠮷"
 
 有两种方法来定义这种关系：
 
-
+_canonical equivalence_
 
 ### The Regular Expression u Flag
 
