@@ -80,7 +80,7 @@ console.log(String.fromCodePoint(134071));  // "𠮷"
 
 ### The normalize\(\) Method
 
-为了进行排序或者其他基于比较的操作，不同的characters可能会被认为是相等的，
+为了进行排序或者其他基于比较的操作 comparison-based operations，不同的characters可能会被认为是相等的，
 
 ### The Regular Expression u Flag
 
