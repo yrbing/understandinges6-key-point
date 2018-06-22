@@ -72,6 +72,8 @@ console.log(is32Bit("a"));          // false
 console.log(String.fromCodePoint(134071));  // "𠮷"
 ```
 
+`String.fromCodePoint() `可以看做是 `String.fromCharCode()`
+
 ### The normalize\(\) Method
 
 ### The Regular Expression u Flag
