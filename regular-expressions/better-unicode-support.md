@@ -86,6 +86,8 @@ console.log(String.fromCodePoint(134071));  // "𠮷"
 
 _canonical equivalence_
 
+_compatibility_
+
 ### The Regular Expression u Flag
 
 ote here.[^16]
