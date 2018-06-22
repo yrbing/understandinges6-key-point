@@ -72,7 +72,7 @@ console.log(is32Bit("a"));          // false
 console.log(String.fromCodePoint(134071));  // "𠮷"
 ```
 
-`String.fromCodePoint() `可以看做是 `String.fromCharCode()`
+`String.fromCodePoint()`可以看做是 `String.fromCharCode()`方法的一个更加完整的版本。
 
 ### The normalize\(\) Method
 
