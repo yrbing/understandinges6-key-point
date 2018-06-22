@@ -90,6 +90,11 @@ _compatibility_
 
 ECMAScript 6 normalize\(\) 方法，可选参数：
 
+* Normalization Form Canonical Composition \(`"NFC"`\), which is the default
+* Normalization Form Canonical Decomposition \(`"NFD"`\)
+* Normalization Form Compatibility Composition \(`"NFKC"`\)
+* Normalization Form Compatibility Decomposition \(`"NFKD"`\)
+
 ### The Regular Expression u Flag
 
 ote here.[^16]
