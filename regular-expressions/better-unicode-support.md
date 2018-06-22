@@ -88,7 +88,7 @@ _canonical equivalence_
 
 _compatibility_
 
-ECMAScript 6 normalize\(\) 方法、
+ECMAScript 6 normalize\(\) 方法
 
 ### The Regular Expression u Flag
 
