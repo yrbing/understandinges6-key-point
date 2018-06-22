@@ -35,7 +35,7 @@ console.log(text.charCodeAt(0));    // 55362
 console.log(text.charCodeAt(1));    // 57271
 ```
 
-### The codePointAt\(\) Method
+#### The codePointAt\(\) Method
 
 `codePointAt()`
 
@@ -66,7 +66,7 @@ console.log(is32Bit("𠮷"));         // true
 console.log(is32Bit("a"));          // false
 ```
 
-### The String.fromCodePoint\(\) Method
+#### The String.fromCodePoint\(\) Method
 
 ```js
 console.log(String.fromCodePoint(134071));  // "𠮷"
@@ -78,7 +78,7 @@ console.log(String.fromCodePoint(134071));  // "𠮷"
 
 对于 non-BMP characters 则不同。
 
-### The normalize\(\) Method
+#### The normalize\(\) Method
 
 为了进行排序或者其他基于比较的操作 comparison-based operations，不同的characters可能会被认为是相等的 equivalent。
 
