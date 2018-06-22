@@ -74,7 +74,11 @@ console.log(String.fromCodePoint(134071));  // "𠮷"
 
 `String.fromCodePoint()`可以看做是 `String.fromCharCode()`方法的一个更加完整的版本。
 
-### The normalize\(\) Method
+对于BMP characters，返回同样的值。
+
+对于 non-BMP characters 则不同。
+
+The normalize\(\) Method
 
 ### The Regular Expression u Flag
 
