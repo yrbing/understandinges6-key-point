@@ -78,7 +78,7 @@ console.log(String.fromCodePoint(134071));  // "𠮷"
 
 对于 non-BMP characters 则不同。
 
-The normalize\(\) Method
+### The normalize\(\) Method
 
 ### The Regular Expression u Flag
 
