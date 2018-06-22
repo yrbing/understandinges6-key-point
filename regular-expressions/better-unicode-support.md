@@ -68,6 +68,10 @@ console.log(is32Bit("a"));          // false
 
 ### The String.fromCodePoint\(\) Method
 
+```js
+console.log(String.fromCodePoint(134071));  // "𠮷"
+```
+
 ### The normalize\(\) Method
 
 ### The Regular Expression u Flag
