@@ -82,6 +82,10 @@ console.log(String.fromCodePoint(134071));  // "𠮷"
 
 为了进行排序或者其他基于比较的操作 comparison-based operations，不同的characters可能会被认为是相等的 equivalent。
 
+有两种方法来定义这种关系：
+
+
+
 ### The Regular Expression u Flag
 
 ote here.[^16]
