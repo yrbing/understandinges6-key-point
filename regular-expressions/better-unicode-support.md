@@ -109,5 +109,8 @@ console.log(/^.$/.test(text));      // false
 console.log(/^.$/u.test(text));     // true
 ```
 
+##### Counting Code Points {#leanpub-auto-counting-code-points}
+
+  
 
 
