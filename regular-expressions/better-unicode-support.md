@@ -101,6 +101,13 @@ ECMAScript 6 normalize\(\) 方法，可选参数：
 
 ##### The u Flag in Action {#leanpub-auto-the-u-flag-in-action}
 
-  
+```js
+var text = "𠮷";
+
+console.log(text.length);           // 2
+console.log(/^.$/.test(text));      // false
+console.log(/^.$/u.test(text));     // true
+```
+
 
 
