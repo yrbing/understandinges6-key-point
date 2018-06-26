@@ -97,5 +97,10 @@ ECMAScript 6 normalize\(\) 方法，可选参数：
 
 ### The Regular Expression u Flag
 
-正则表达式也是基于16-bits code units。为了解决这个问题，ECMAScript 6 为 Unicode 定义了一个 `u` flag。 
+正则表达式也是基于16-bits code units。为了解决这个问题，ECMAScript 6 为 Unicode 定义了一个 `u` flag。
+
+##### The u Flag in Action {#leanpub-auto-the-u-flag-in-action}
+
+  
+
 
