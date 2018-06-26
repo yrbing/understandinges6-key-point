@@ -97,5 +97,5 @@ ECMAScript 6 normalize\(\) 方法，可选参数：
 
 ### The Regular Expression u Flag
 
-ote here.[^16]
+正则表达式
 
