@@ -111,6 +111,15 @@ console.log(/^.$/u.test(text));     // true
 
 ##### Counting Code Points {#leanpub-auto-counting-code-points}
 
-  
+```js
+function codePointLength(text) {
+    var result = text.match(/[\s\S]/gu);
+    return result ? result.length : 0;
+}
+
+console.log(codePointLength("abc"));    // 3
+console.log(codePointLength("𠮷bc"));   // 3
+```
+
 
 
