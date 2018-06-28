@@ -121,5 +121,9 @@ console.log(codePointLength("abc"));    // 3
 console.log(codePointLength("𠮷bc"));   // 3
 ```
 
+> Although this approach works, it’s not very fast, especially when applied to long strings. You can use a string iterator \(discussed in Chapter 8\) as well. In general, try to minimize counting code points whenever possible.
+>
+> 尽管这个方法是可行的，但它并不是很快。
+
 
 
