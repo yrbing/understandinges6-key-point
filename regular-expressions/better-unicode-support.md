@@ -125,5 +125,8 @@ console.log(codePointLength("𠮷bc"));   // 3
 >
 > 一般情况下，我们应该尽量减少counting code points。
 
+##### Determining Support for the u Flag {#leanpub-auto-determining-support-for-the-u-flag}
+
+  
 
 
