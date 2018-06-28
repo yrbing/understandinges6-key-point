@@ -127,6 +127,5 @@ console.log(codePointLength("𠮷bc"));   // 3
 
 ##### Determining Support for the u Flag {#leanpub-auto-determining-support-for-the-u-flag}
 
-  
 
 
