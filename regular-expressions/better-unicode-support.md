@@ -127,6 +127,8 @@ console.log(codePointLength("𠮷bc"));   // 3
 
 ##### Determining Support for the u Flag {#leanpub-auto-determining-support-for-the-u-flag}
 
+因为`u` flag 是 syntax change，不兼容 ECMAScript 6 的 JavaScript engines 会抛出 syntax error。
+
 ```js
 function hasRegExpU() {
     try {
