@@ -32,5 +32,7 @@ console.log(msg.includes("o", 8));          // false
 
 > 如果传入一个regular expression而不是string作为参数，`includes()`，`startsWith()`和`endsWith()`都会throw an error。`indexOf()`和`lastIndexOf()`会把正则表达式转换成string（虽然和想象的方式不太一样）
 
+### The repeat\(\) Method
+
 
 
