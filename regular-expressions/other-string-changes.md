@@ -28,5 +28,5 @@ console.log(msg.endsWith("o", 8));          // true
 console.log(msg.includes("o", 8));          // false
 ```
 
-这三个方法只返回boolean值，如果需要找到一个string在另一个中的actual position，
+这三个方法只返回boolean值，如果需要找到一个string在另一个中的actual position，使用indexOf\(\)或者lastIndexOf\(\)方法。
 
