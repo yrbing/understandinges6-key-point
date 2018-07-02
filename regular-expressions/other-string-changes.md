@@ -28,5 +28,9 @@ console.log(msg.endsWith("o", 8));          // true
 console.log(msg.includes("o", 8));          // false
 ```
 
-这三个方法只返回boolean值，如果需要找到一个string在另一个中的actual position，使用indexOf\(\)或者lastIndexOf\(\)方法。
+这三个方法只返回boolean值，如果需要找到一个string在另一个中的actual position，使用`indexOf()`或者lastIndexOf\(\)方法。
+
+> 如果传入一个regular expression而不是string作为参数，`includes()`，`startsWith()`和`endsWith()`都会throw an error。`indexOf()`和`lastIndexOf()`会把正则表达式转换成string（虽然和想象的方式不太一样）
+
+
 
