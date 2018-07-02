@@ -4,6 +4,8 @@
 
 ### Duplicating Regular Expressions
 
+### The`flags`Property
+
   
 
 
