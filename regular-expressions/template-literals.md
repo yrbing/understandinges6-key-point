@@ -4,13 +4,14 @@
 
 ####  {#leanpub-auto-basic-syntax}
 
-### Multiline Strings 
+### Multiline Strings
+
+
+
+
+
+### Making Substitutions
 
   
-
-
-  
-
-
 
 
