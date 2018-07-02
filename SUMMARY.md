@@ -14,6 +14,6 @@
   * [Other String Changes](regular-expressions/other-string-changes.md)
   * [Other Regular Expression Changes](regular-expressions/other-regular-expression-changes.md)
   * [Template Literals](regular-expressions/template-literals.md)
-  * Summary
+  * [Summary](regular-expressions/summary.md)
 * Functions
 
