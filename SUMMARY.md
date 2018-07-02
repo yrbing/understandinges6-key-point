@@ -12,7 +12,7 @@
 * [Strings and Regular Expressions](regular-expressions.md)
   * [Better Unicode Support](regular-expressions/better-unicode-support.md)
   * [Other String Changes](regular-expressions/other-string-changes.md)
-  * Other Regular Expression Changes
+  * [Other Regular Expression Changes](regular-expressions/other-regular-expression-changes.md)
   * Template Literals
   * Summary
 * Functions
