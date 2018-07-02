@@ -28,5 +28,5 @@ console.log(msg.endsWith("o", 8));          // true
 console.log(msg.includes("o", 8));          // false
 ```
 
-
+这三个方法只返回boolean值，
 
