@@ -6,7 +6,7 @@
 
 Firefox将 y flag 作为正则表达式的扩展进行了实现，本次 ECMAScript 6 标准化了 `y` flag。
 
-`y`flag 影响了正则表达式搜索的 sticky 属性，
+`y`flag 影响了正则表达式搜索的 sticky 属性，它规定了search要从正则表达式的 lastIndex 属性开始匹配。如果在指定位置没有匹配，正则表达式会停止继续匹配。
 
 ```js
 var text = "hello1 hello2 hello3",
