@@ -36,6 +36,8 @@ console.log(stickyResult[0]);   // Error! stickyResult is null
 
 第一次调用`console.log()`时，三个正则表达式均输出`“hello1 ”`，以空格结尾。
 
+然后lastIndex属性被赋值1，因此正则表达式应该从第二个字符开始匹配。
+
 ### Duplicating Regular Expressions
 
 ### The`flags`Property
