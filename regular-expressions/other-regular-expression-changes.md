@@ -34,6 +34,8 @@ console.log(globalResult[0]);   // "hello2 "
 console.log(stickyResult[0]);   // Error! stickyResult is null
 ```
 
+第一次调用`console.log()`时，三个正则表达式均输出`“hello1 ”`，以空格结尾。
+
 ### Duplicating Regular Expressions
 
 ### The`flags`Property
