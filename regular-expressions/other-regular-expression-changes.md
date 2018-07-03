@@ -38,7 +38,7 @@ console.log(stickyResult[0]);   // Error! stickyResult is null
 
 然后lastIndex属性被赋值1，因此正则表达式应该从第二个字符开始匹配。没有flags的正则表达式无视了lastIndex的变化。g flag 匹配了"hello2 "。第三个sticky regular expression从第二个字符开始匹配，没有匹配到任何东西。
 
-sticky flag 保存了最后一个匹配之后的下一个字符的index值。如果一个操作的结果是no match，lastIndex被重置为0.
+sticky flag 保存了最后一个匹配之后的下一个字符的index值。如果一个操作的结果是no match，lastIndex被重置为0。global flag也是如此。
 
 ```js
 var text = "hello1 hello2 hello3",
