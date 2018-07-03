@@ -6,6 +6,8 @@
 
 Firefox将 y flag 作为正则表达式的扩展进行了实现，本次 ECMAScript 6 标准化了 `y` flag。
 
+`y`flag 影响了正则表达式搜索的 sticky 属性，
+
 ```js
 var text = "hello1 hello2 hello3",
     pattern = /hello\d\s?/,
