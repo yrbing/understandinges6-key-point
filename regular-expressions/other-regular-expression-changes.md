@@ -77,6 +77,12 @@ the sticky flag 还有两个小细节需要注意：
 
 和其他正则表达式flags一样，可以使用属性去查看正则表达式是否使用了y flag，使用 `sticky` 属性。
 
+```js
+var pattern = /hello\d/y;
+
+console.log(pattern.sticky);    // true
+```
+
 ### Duplicating Regular Expressions
 
 ### The`flags`Property
