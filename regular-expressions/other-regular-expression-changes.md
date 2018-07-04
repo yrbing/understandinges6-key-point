@@ -110,7 +110,6 @@ var re1 = /ab/i,
 如果传入第二个参数，会报错：
 
 ```js
-
     // throws an error in ES5, okay in ES6
     re2 = new RegExp(re1, "g");
 ```
