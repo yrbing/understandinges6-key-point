@@ -4,9 +4,9 @@
 
 ### The Regular Expression y Flag
 
-Firefox将 y flag 作为正则表达式的扩展进行了实现，本次 ECMAScript 6 标准化了 `y` flag。
+Firefox将 `y` flag 作为正则表达式的扩展进行了实现，本次 ECMAScript 6 标准化了 `y` flag。
 
-`y`flag 影响了正则表达式搜索的 sticky 属性，它规定了search要从正则表达式的 lastIndex 属性开始匹配。如果在指定位置没有匹配，正则表达式会停止继续匹配。
+`y`flag 影响了正则表达式搜索的 sticky 属性，它规定了search要从正则表达式的 `lastIndex` 属性开始匹配。如果在指定位置没有匹配，正则表达式会停止继续匹配。
 
 ```js
 var text = "hello1 hello2 hello3",
@@ -36,7 +36,7 @@ console.log(stickyResult[0]);   // Error! stickyResult is null
 
 第一次调用`console.log()`时，三个正则表达式均输出`“hello1 ”`，以空格结尾。
 
-然后lastIndex属性被赋值1，因此正则表达式应该从第二个字符开始匹配。没有flags的正则表达式无视了lastIndex的变化。g flag 匹配了"hello2 "。第三个sticky regular expression从第二个字符开始匹配，没有匹配到任何东西。
+然后`lastIndex`属性被赋值1，因此正则表达式应该从第二个字符开始匹配。没有flags的正则表达式无视了`lastIndex`的变化。g flag 匹配了"hello2 "。第三个sticky regular expression从第二个字符开始匹配，没有匹配到任何东西。
 
 sticky flag 保存了最后一个匹配之后的下一个字符的index值。如果一个操作的结果是no match，lastIndex被重置为0。global flag也是如此。
 
@@ -71,6 +71,10 @@ console.log(stickyPattern.lastIndex);   // 14
 ```
 
 the sticky flag 还有两个小细节需要注意：
+
+`lastIndex`属性只有在调用属于正则表达式对象的方法时，才是生效的。
+
+如果使用`^`字符去匹配字符串的起始位置，
 
 ### Duplicating Regular Expressions
 
