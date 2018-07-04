@@ -83,6 +83,12 @@ var pattern = /hello\d/y;
 console.log(pattern.sticky);    // true
 ```
 
+ `sticky` 属性是只读的。
+
+```js
+
+```
+
 ### Duplicating Regular Expressions
 
 ### The`flags`Property
