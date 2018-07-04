@@ -83,7 +83,9 @@ var pattern = /hello\d/y;
 console.log(pattern.sticky);    // true
 ```
 
- `sticky` 属性是只读的。
+`sticky` 属性是只读的。
+
+和 u flag 相似，
 
 ```js
 
