@@ -100,6 +100,8 @@ function hasRegExpY() {
 
 ### Duplicating Regular Expressions
 
+ECMAScript 5 中，可以通过RegExp构造函数复制一个正则表达式。
+
 ### The`flags`Property
 
 
