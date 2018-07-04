@@ -85,7 +85,7 @@ console.log(pattern.sticky);    // true
 
 `sticky` 属性是只读的。
 
-和 u flag 类似，y flag 是句法的变化，在老的JavaScript引擎中可以会引起syntax error。
+和 u flag 类似，y flag 是句法的变化，在老的JavaScript引擎中可以会引起syntax error，可以使用如下方法去detect support:
 
 ```js
 
