@@ -114,6 +114,25 @@ var re1 = /ab/i,
     re2 = new RegExp(re1, "g");
 ```
 
+如果传入第二个参数，会报错：
+
+```js
+var re1 = /ab/i,
+
+    // throws an error in ES5, okay in ES6
+    re2 = new RegExp(re1, "g");
+
+
+console.log(re1.toString());            // "/ab/i"
+console.log(re2.toString());            // "/ab/g"
+
+console.log(re1.test("ab"));            // true
+console.log(re2.test("ab"));            // true
+
+console.log(re1.test("AB"));            // true
+console.log(re2.test("AB"));            // false
+```
+
 ### The`flags`Property
 
 
