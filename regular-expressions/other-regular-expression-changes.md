@@ -70,6 +70,8 @@ console.log(globalPattern.lastIndex);   // 14
 console.log(stickyPattern.lastIndex);   // 14
 ```
 
+the sticky flag 还有两个小细节需要注意：
+
 ### Duplicating Regular Expressions
 
 ### The`flags`Property
