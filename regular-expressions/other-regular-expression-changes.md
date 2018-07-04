@@ -102,6 +102,11 @@ function hasRegExpY() {
 
 ECMAScript 5 中，可以通过RegExp构造函数复制一个正则表达式。
 
+```js
+var re1 = /ab/i,
+    re2 = new RegExp(re1);
+```
+
 ### The`flags`Property
 
 
