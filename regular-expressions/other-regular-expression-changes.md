@@ -114,7 +114,7 @@ var re1 = /ab/i,
     re2 = new RegExp(re1, "g");
 ```
 
-ECMAScript 6 中，第二个参数可用，并且会覆盖第一个参数中的任意flags。
+ECMAScript 6 中，第二个参数可用，并且会覆盖第一个参数中的任意flags。如果没有第二个参数，re2会和re1油相同的flags。
 
 ```js
 var re1 = /ab/i,
