@@ -72,9 +72,8 @@ console.log(stickyPattern.lastIndex);   // 14
 
 the sticky flag 还有两个小细节需要注意：
 
-`lastIndex`属性只有在调用属于正则表达式对象的方法时，才是生效的。
-
-如果使用`^`字符去匹配字符串的起始位置，
+1. `lastIndex`属性只有在调用属于正则表达式对象的方法时，才是生效的。
+2. 如果使用`^`字符去匹配字符串的起始位置，
 
 ### Duplicating Regular Expressions
 
