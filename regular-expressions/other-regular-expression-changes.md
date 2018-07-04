@@ -75,7 +75,7 @@ the sticky flag 还有两个小细节需要注意：
 1. `lastIndex`属性只有在调用属于正则表达式对象的方法时，才是生效的。比如`exec()`和`test()`方法。在string的方法里传入正则表达式不会有sticky的效果，比如`match()`方法。
 2. 如果使用`^`字符去匹配字符串的起始位置，sticky 正则表达式基本上没有什么意义，只从string的开头进行匹配（或者start of the line in multiline mode）。当`lastIndex`为0，`^`字符使得sticky正则表达式和non-sticky正则表达式没有什么区别。当`lastIndex`不指向单行模式下的string的开头，或者多行模式下的一行的开头时，sticky正则表达式 will never match。
 
-和其他正则表达式flags一样，可以使用属性去查看正则表达式是否使用了y flag，使用 sticky 属性。
+和其他正则表达式flags一样，可以使用属性去查看正则表达式是否使用了y flag，使用 `sticky` 属性。
 
 ### Duplicating Regular Expressions
 
