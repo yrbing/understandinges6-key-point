@@ -136,5 +136,19 @@ console.log(re2.test("AB"));            // false
 
 ### The`flags`Property
 
+ECMAScript 5中，可以通过`source`属性来获取正则表达式的text部分，但如果想要获取flag字符串，需要通过解析`toString()`方法的返回值。
+
+```js
+function getFlags(re) {
+    var text = re.toString();
+    return text.substring(text.lastIndexOf("/") + 1, text.length);
+}
+
+// toString() is "/ab/g"
+var re = /ab/g;
+
+console.log(getFlags(re));          // "g"
+```
+
 ECMAScript 6 增加了一个属性，和flags相关联。
 
