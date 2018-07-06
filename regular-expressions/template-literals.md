@@ -57,7 +57,7 @@ console.log(message);       // "Multiline
                             //  string"
 ```
 
-虽然在主要的JS引擎中，这样做都可以达到目的，但是这个行为被定义为一个bug，很多开发者不推荐这么做。
+虽然在主要的JS引擎中，这样做都可以达到目的，但是这个行为被定义为一个bug，很多开发者不推荐这么做。\(反斜线\)
 
 其他的pre-ECMAScript 6创建多行字符串的方式基本基于array或者字符串连接string concatenation。
 
