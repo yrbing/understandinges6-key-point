@@ -40,6 +40,8 @@ console.log(message.length);        // 14
 
 #### Pre-ECMAScript 6 Workarounds
 
+由于一直存在的句法bug，JS有一种创建多行string的变通办法。
+
 ```js
 var message = "Multiline \
 string";
