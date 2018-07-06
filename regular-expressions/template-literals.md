@@ -16,6 +16,14 @@ ES6没有试图给JS已有的字符串添加更多功能，而是采用了templa
 
 template literals使用倒引号\(`````\)而不是双引号或单引号。
 
+```js
+let message = `Hello world!`;
+
+console.log(message);               // "Hello world!"
+console.log(typeof message);        // "string"
+console.log(message.length);        // 12
+```
+
 ### Multiline Strings
 
 ### Making Substitutions
