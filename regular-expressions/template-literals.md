@@ -73,7 +73,7 @@ let message = "Multiline \n" +
 
 #### Multiline Strings the Easy Way
 
-ES6的template literals
+ES6的template literals:
 
 ```js
 let message = `Multiline
