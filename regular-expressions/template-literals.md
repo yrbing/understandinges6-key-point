@@ -6,6 +6,10 @@ ECMAScript 6 的 _template literals _提供了创建 domain-specific languages\(
 
 事实上，ECMAScript 6的  template literals，解决了ES5一直缺少的如下features：
 
+* **Multiline strings **多行字符串的正式概念
+* **Basic string formatting **用变量的值替换部分string
+* **HTML escaping **转换string使其能够安全插入HTML
+
 ### Basic Syntax
 
 ####  {#leanpub-auto-basic-syntax}
