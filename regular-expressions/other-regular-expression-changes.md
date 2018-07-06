@@ -150,7 +150,7 @@ var re = /ab/g;
 console.log(getFlags(re));          // "g"
 ```
 
-**ECMAScript 6 增加了一个`flags`属性使得获取flags更加容易。`source`和`flags`属性均为存取器属性，只有getter，因此read-only。**
+**ECMAScript 6 增加了一个**`flags`**属性使得获取flags更加容易。**`source`**和**`flags`**属性均为存取器属性，只有getter，因此read-only。???????????????????????**
 
 ```js
 var re = /ab/g;
