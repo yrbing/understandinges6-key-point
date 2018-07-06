@@ -97,7 +97,7 @@ console.log(message.length);    // 31
 
 ### Making Substitutions
 
-### 
+
 
 ### Tagged Templates
 
