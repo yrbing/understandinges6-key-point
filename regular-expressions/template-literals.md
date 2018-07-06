@@ -40,6 +40,8 @@ console.log(message.length);        // 14
 
 #### Pre-ECMAScript 6 Workarounds
 
+#### Multiline Strings the Easy Way
+
   
 
 
