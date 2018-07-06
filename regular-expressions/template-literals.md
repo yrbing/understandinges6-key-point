@@ -34,6 +34,10 @@ console.log(typeof message);        // "string"
 console.log(message.length);        // 14
 ```
 
+对于double或者single quotes，无须转义escape。
+
+
+
 ### Multiline Strings
 
 ### Making Substitutions
