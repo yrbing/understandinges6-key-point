@@ -38,6 +38,11 @@ console.log(message.length);        // 14
 
 ### Multiline Strings
 
+#### Pre-ECMAScript 6 Workarounds
+
+  
+
+
 ### Making Substitutions
 
 ### 
