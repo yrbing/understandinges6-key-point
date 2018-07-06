@@ -150,5 +150,5 @@ var re = /ab/g;
 console.log(getFlags(re));          // "g"
 ```
 
-ECMAScript 6 增加了一个属性，和flags相关联。
+ECMAScript 6 增加了一个`flags`属性使得获取flags更加容易。
 
