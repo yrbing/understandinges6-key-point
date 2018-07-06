@@ -73,6 +73,17 @@ let message = "Multiline \n" +
 
 #### Multiline Strings the Easy Way
 
+ES6的template literals
+
+```js
+let message = `Multiline
+string`;
+
+console.log(message);           // "Multiline
+                                //  string"
+console.log(message.length);    // 16
+```
+
 ### Making Substitutions
 
 ### 
