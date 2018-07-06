@@ -57,6 +57,8 @@ console.log(message);       // "Multiline
                             //  string"
 ```
 
+虽然在主要的JS引擎中，这样做都可以达到目的，但是这个行为被定义为一个bug，很多开发者不推荐这么做。
+
 #### Multiline Strings the Easy Way
 
 ### Making Substitutions
