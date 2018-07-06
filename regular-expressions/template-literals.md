@@ -84,7 +84,7 @@ console.log(message);           // "Multiline
 console.log(message.length);    // 16
 ```
 
-倒引号backticks中的所有空格都会成为string的一部分，因此小心使用indentation。
+倒引号backticks中的所有空格都会成为string的一部分，因此小心使用缩进indentation。
 
 ```js
 let message = `Multiline
