@@ -40,10 +40,14 @@ console.log(message.length);        // 14
 
 #### Pre-ECMAScript 6 Workarounds
 
+```js
+var message = "Multiline \
+string";
+
+console.log(message);       // "Multiline string"
+```
+
 #### Multiline Strings the Easy Way
-
-  
-
 
 ### Making Substitutions
 
