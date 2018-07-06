@@ -24,7 +24,7 @@ console.log(typeof message);        // "string"
 console.log(message.length);        // 12
 ```
 
-如果想在字符串中使用backtick
+如果想在字符串中使用backtick，用反斜线backslash转义escape它。
 
 ```js
 let message = `\`Hello\` world!`;
