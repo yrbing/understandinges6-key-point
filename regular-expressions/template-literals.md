@@ -14,7 +14,7 @@ ES6没有试图给JS已有的字符串添加更多功能，而是采用了templa
 
 ### Basic Syntax
 
-template literals使用倒引号。
+template literals使用倒引号backtick。
 
 ```js
 let message = `Hello world!`;
