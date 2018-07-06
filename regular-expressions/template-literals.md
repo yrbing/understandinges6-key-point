@@ -14,7 +14,7 @@ ES6没有试图给JS已有的字符串添加更多功能，而是采用了templa
 
 ### Basic Syntax
 
-template literals使用倒引号\(\`\`\`\`\`\)而不是双引号或单引号。
+template literals使用倒引号。
 
 ```js
 let message = `Hello world!`;
@@ -27,6 +27,8 @@ console.log(message.length);        // 12
 ### Multiline Strings
 
 ### Making Substitutions
+
+### 
 
 ### Tagged Templates
 
