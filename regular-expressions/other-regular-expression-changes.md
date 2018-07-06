@@ -1,4 +1,4 @@
-## Other Regular Expression Changes
+## 均为Other Regular Expression Changes
 
 配合string的一些更新，ECMAScript 6 对正则表达式做了一些improvements。
 
@@ -150,5 +150,5 @@ var re = /ab/g;
 console.log(getFlags(re));          // "g"
 ```
 
-ECMAScript 6 增加了一个`flags`属性使得获取flags更加容易。`source`和`flags`属性
+ECMAScript 6 增加了一个`flags`属性使得获取flags更加容易。`source`和`flags`属性均为存取器属性。
 
