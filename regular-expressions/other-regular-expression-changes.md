@@ -136,5 +136,5 @@ console.log(re2.test("AB"));            // false
 
 ### The`flags`Property
 
-
+ECMAScript 6 增加了一个属性，和flags相关联。
 
