@@ -49,6 +49,14 @@ string";
 console.log(message);       // "Multiline string"
 ```
 
+```js
+var message = "Multiline \n\
+string";
+
+console.log(message);       // "Multiline
+                            //  string"
+```
+
 #### Multiline Strings the Easy Way
 
 ### Making Substitutions
