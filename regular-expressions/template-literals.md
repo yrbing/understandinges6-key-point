@@ -84,6 +84,17 @@ console.log(message);           // "Multiline
 console.log(message.length);    // 16
 ```
 
+ES6的template literals：
+
+```js
+let message = `Multiline
+               string`;
+
+console.log(message);           // "Multiline
+                                //                 string"
+console.log(message.length);    // 31
+```
+
 ### Making Substitutions
 
 ### 
