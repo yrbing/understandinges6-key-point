@@ -10,6 +10,8 @@ ECMAScript 6 的 _template literals _提供了创建 domain-specific languages\(
 * **Basic string formatting **用变量的值替换部分string
 * **HTML escaping **转换string使其能够安全插入HTML
 
+ES6没有试图给JS已有的字符串添加更多功能，而是采用了template literals这个全新的方法去解决这些问题。
+
 ### Basic Syntax
 
 ####  {#leanpub-auto-basic-syntax}
