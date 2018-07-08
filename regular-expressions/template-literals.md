@@ -113,6 +113,10 @@ let count = 10,
 console.log(message);       // "10 items cost $2.50."
 ```
 
+可以嵌入计算，函数调用等等。
+
+
+
 ### Tagged Templates
 
 
