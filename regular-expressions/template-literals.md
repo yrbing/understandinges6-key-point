@@ -126,5 +126,5 @@ console.log(message);        // "Hello, my name is Nicholas."
 
 ### Tagged Templates
 
-
+template literals可以不使用concatenation，达到创建多行string，或者在string中嵌入value的目的。
 
