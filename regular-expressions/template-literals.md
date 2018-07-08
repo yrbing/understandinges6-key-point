@@ -103,6 +103,16 @@ Substitutions允许在template literal中嵌套任何合法的JS表达式。
 >
 > 变量可以是undefined，但不能是未声明的。（所以一个已声明对象的未声明属性是可以的）
 
+
+
+```js
+let count = 10,
+    price = 0.25,
+    message = `${count} items cost $${(count * price).toFixed(2)}.`;
+
+console.log(message);       // "10 items cost $2.50."
+```
+
 ### Tagged Templates
 
 
