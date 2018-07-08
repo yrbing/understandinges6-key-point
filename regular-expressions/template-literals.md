@@ -97,7 +97,7 @@ console.log(message.length);    // 31
 
 ### Making Substitutions
 
-
+Substitutions允许在template literal中嵌套任何合法的JS表达式。
 
 ### Tagged Templates
 
