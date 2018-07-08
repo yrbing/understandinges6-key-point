@@ -115,7 +115,14 @@ console.log(message);       // "10 items cost $2.50."
 
 可以嵌入计算，函数调用等等。
 
+```js
+let name = "Nicholas",
+    message = `Hello, ${
+        `my name is ${ name }`
+    }.`;
 
+console.log(message);        // "Hello, my name is Nicholas."
+```
 
 ### Tagged Templates
 
