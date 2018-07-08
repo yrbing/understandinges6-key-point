@@ -97,13 +97,13 @@ console.log(message.length);    // 31
 
 ### Making Substitutions
 
-Substitutions允许在template literal中嵌套任何合法的JS表达式。
+Substitutions允许在template literal中嵌入任何合法的JS表达式。
 
 > A template literal can access any variable accessible in the scope in which it is defined. Attempting to use an undeclared variable in a template literal throws an error in both strict and non-strict modes.
 >
 > 变量可以是undefined，但不能是未声明的。（所以一个已声明对象的未声明属性是可以的）
 
-
+可以嵌入计算，函数调用等等。
 
 ```js
 let count = 10,
