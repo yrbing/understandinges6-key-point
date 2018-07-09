@@ -138,5 +138,5 @@ let message = tag`Hello world`;
 
 tag是一个用处理后的template literal数据调用的函数。将有关模板文字的数据作为单独的块pieces接收，合并这些块创建出result。
 
-第一个参数是一个包括JS解释的字面量的数组。
+第一个参数是一个包括经JS解释（interpreted）的字面量字符串的数组。
 
