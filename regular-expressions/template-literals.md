@@ -156,5 +156,5 @@ let count = 10,
     message = passthru`${count} items cost $${(count * price).toFixed(2)}.`;
 ```
 
-
+passthru\(\)函数接收三个参数。
 
