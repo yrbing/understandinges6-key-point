@@ -195,7 +195,7 @@ let count = 10,
 console.log(message);       // "10 items cost $2.50."
 ```
 
-> substitutions中的值并不一定是string，
+> substitutions中的值并不一定是string，如果一个表达式的结果是一个number，传入substitution的就是一个numeric value。
 
 
 
