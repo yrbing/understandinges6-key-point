@@ -210,7 +210,7 @@ console.log(message1);          // "Multiline
 console.log(message2);          // "Multiline\\nstring"
 ```
 
-第一个参数是一个数组，这个数组有一个额外的属性叫做`raw`。因此，`literals[0]`有一个对应的值`literals.raw[0]`，是它的raw string information。因此，可以通过以下代码模拟`String.raw()`：
+raw string information也被传递给了template tags。第一个参数是一个数组，这个数组有一个额外的属性叫做`raw`。因此，`literals[0]`有一个对应的值`literals.raw[0]`，是它的raw string information。因此，可以通过以下代码模拟`String.raw()`：
 
 ```js
 function raw(literals, ...substitutions) {
