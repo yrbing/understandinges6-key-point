@@ -128,5 +128,5 @@ console.log(message);        // "Hello, my name is Nicholas."
 
 template literals可以不使用concatenation，达到创建多行string，或者在string中嵌入value的目的。但其真正的能力来自于tagged templates。
 
-
+template tag对template literal进行转化，返回最终的字符串值。
 
