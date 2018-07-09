@@ -140,3 +140,11 @@ tag是一个用处理后的template literal数据调用的函数。将有关模�
 
 第一个参数是一个包括经JS解释\(interpreted\)的字面量字符串的数组。每一个随后的参数都是一个substitution的解释\(interpreted\)值。
 
+```js
+function tag(literals, ...substitutions) {
+    // return a string
+}
+```
+
+
+
