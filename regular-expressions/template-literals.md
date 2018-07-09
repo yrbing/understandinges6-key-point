@@ -168,5 +168,7 @@ passthru\(\)函数接收三个参数。
 
 3. `(count * price).toFixed(2)`的interpreted值`"2.50"`，substitutions数组的第二个元素。
 
+因此literals\[0\]，literals\[literals.length-1\]
+
 
 
