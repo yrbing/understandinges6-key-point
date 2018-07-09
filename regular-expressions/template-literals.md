@@ -164,9 +164,11 @@ passthru\(\)函数接收三个参数。
    * 第一个第二个substitution之间的字符串`“ items cost $”`
    * 第二个substitution之后的字符串`“.”`
 
-2. `count`变量的interpreted value`10`
+2. `count`变量的interpreted value`10`，substitutions数组的第一个元素。
 
-3. `(count * price).toFixed(2)`的interpreted值`"2.50"`
+3. `(count * price).toFixed(2)`的interpreted值`"2.50"`，substitutions数组的第二个元素。
+
+   1. 
 
 
 
