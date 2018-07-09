@@ -148,7 +148,7 @@ function tag(literals, ...substitutions) {
 }
 ```
 
-tag函数很适合使用rest arguments，处理数据更加方便：
+具体接收参数可以看这个例子：
 
 ```js
 let count = 10,
