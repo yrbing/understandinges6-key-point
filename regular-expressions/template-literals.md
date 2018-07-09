@@ -1,4 +1,4 @@
-* ## Template Literals
+## Template Literals
 
 ECMAScript 6 的 _template literals _提供了创建 domain-specific languages\(DSLs\)的句法，处理内容比ECMAScript 5更加安全。
 
