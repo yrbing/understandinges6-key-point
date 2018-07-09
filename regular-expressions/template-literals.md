@@ -199,5 +199,7 @@ console.log(message);       // "10 items cost $2.50."
 
 #### Using Raw Values in Template Literals
 
+`String.raw()`是一个模板字符串的标签函数，它的作用类似于 Python 中的字符串前缀`r`和 C\# 中的字符串前缀`@`，是用来获取一个模板字符串的原始字面量值的。
+
 `String.raw()`是唯一一个内置的模板字符串标签函数，因为它太常用了。不过它并没有什么特殊能力，你自己也可以实现一个和它功能一模一样的标签函数。
 
