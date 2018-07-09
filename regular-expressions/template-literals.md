@@ -195,5 +195,7 @@ let count = 10,
 console.log(message);       // "10 items cost $2.50."
 ```
 
+> substitutions中的值并不一定是string，
+
 
 
