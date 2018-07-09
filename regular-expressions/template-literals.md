@@ -158,5 +158,11 @@ let count = 10,
 
 passthru\(\)函数接收三个参数。
 
-literals数组。
+literals数组。包含元素：
+
+第一个substitution之前的空字符串`“”`
+
+第一个第二个substitution之间的字符串`“ items cost $”`
+
+第二个substitution之后的字符串`“.”`
 
