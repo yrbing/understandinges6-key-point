@@ -136,6 +136,5 @@ let message = tag`Hello world`;
 
 #### Defining Tags
 
-  
-
+tag是一个用处理后的template literal数据调用的函数。
 
