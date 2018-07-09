@@ -15,5 +15,15 @@
   * [Other Regular Expression Changes](regular-expressions/other-regular-expression-changes.md)
   * [Template Literals](regular-expressions/template-literals.md)
   * [Summary](regular-expressions/summary.md)
-* Functions
+* [Functions](functions.md)
+  * Functions with Default Parameter Values
+  * [Working with Unnamed Parameters](functions/unnamed-parameters-in-ecmascript-5.md)
+  * [Increased Capabilities of the Function Constructor](functions/increased-capabilities-of-the-function-constructor.md)
+  * The Spread Operator
+  * ECMAScript 6’s name Property
+  * [Clarifying the Dual Purpose of Functions](functions/clarifying-the-dual-purpose-of-functions.md)
+  * [Block-Level Functions](functions/block-level-functions.md)
+  * Arrow Functions
+  * Tail Call Optimization
+  * Summary
 
