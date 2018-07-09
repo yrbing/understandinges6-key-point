@@ -170,3 +170,5 @@ passthru\(\)函数接收三个参数。
 
 可以看出literals\[0\]总是字符串的开头，literals\[literals.length-1\]总是字符串的结尾。因此`substitutions.length === literals.length - 1`is always true。
 
+因此，可以使用模板tag模拟template literal的默认行为：
+
