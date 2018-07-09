@@ -210,7 +210,7 @@ console.log(message1);          // "Multiline
 console.log(message2);          // "Multiline\\nstring"
 ```
 
-第一个参数是一个数组，数组有一个额外的属性叫做`raw`。因此，`literals[0]`有一个对应的值`literals.raw[0]`，是它的raw string information。因此，可以通过以下代码模拟String.
+第一个参数是一个数组，数组有一个额外的属性叫做`raw`。因此，`literals[0]`有一个对应的值`literals.raw[0]`，是它的raw string information。因此，可以通过以下代码模拟String.raw\(\)：
 
 `String.raw()`是一个模板字符串的标签函数，它的作用类似于 Python 中的字符串前缀`r`和 C\# 中的字符串前缀`@`，是用来获取一个模板字符串的原始字面量值的。
 
