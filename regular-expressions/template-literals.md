@@ -168,5 +168,5 @@ passthru\(\)函数接收三个参数。
 
 3. `(count * price).toFixed(2)`的interpreted值`"2.50"`，substitutions数组的第二个元素。
 
-可以看出literals\[0\]总是字符串的开头，literals\[literals.length-1\]总是字符串的结尾。
+可以看出literals\[0\]总是字符串的开头，literals\[literals.length-1\]总是字符串的结尾。因此`substitutions.length === literals.length - 1`is always true。
 
