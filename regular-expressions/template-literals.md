@@ -148,5 +148,13 @@ function tag(literals, ...substitutions) {
 }
 ```
 
+tag函数很适合使用rest arguments，处理数据更加方便：
+
+```js
+let count = 10,
+    price = 0.25,
+    message = passthru`${count} items cost $${(count * price).toFixed(2)}.`;
+```
+
 
 
