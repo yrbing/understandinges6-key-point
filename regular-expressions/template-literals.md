@@ -158,3 +158,5 @@ let count = 10,
 
 passthru\(\)函数接收三个参数。
 
+literals数组。
+
