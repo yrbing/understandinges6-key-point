@@ -166,5 +166,7 @@ passthru\(\)函数接收三个参数。
 
 2. `count`变量的interpreted value`10`
 
+3. `(count * price).toFixed(2)`的interpreted值`"2.50"`
+
 
 
