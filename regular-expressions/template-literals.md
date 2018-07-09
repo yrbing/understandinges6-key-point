@@ -130,3 +130,9 @@ template literals可以不使用concatenation，达到创建多行string，或�
 
 template tag对template literal进行转化，返回最终的字符串值。tag在template的开头指定。
 
+```js
+let message = tag`Hello world`;
+```
+
+
+
