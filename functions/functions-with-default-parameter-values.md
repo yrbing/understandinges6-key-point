@@ -71,5 +71,5 @@ function makeRequest(url, timeout = 2000, callback) {
 }
 ```
 
-timeout默认值只有在以下情况被用到：1、没有第二个参数传入；2、第二个参数传入的值是undefined。
+timeout默认值只有在以下情况被用到：1、没有第二个参数传入；2、第二个参数传入的值是`undefined`。
 
