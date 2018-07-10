@@ -90,3 +90,8 @@ makeRequest("/foo", null, function(body) {
 
 **null被认为是合法的valid，因此在第三个例子里，不会用到默认值。**
 
+### How Default Parameter Values Affect the arguments Object
+
+  
+
+
