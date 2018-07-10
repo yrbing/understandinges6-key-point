@@ -32,5 +32,8 @@ function makeRequest(url, timeout, callback) {
 }
 ```
 
+### Default Parameter Values in ECMAScript 6
+
+  
 
 
