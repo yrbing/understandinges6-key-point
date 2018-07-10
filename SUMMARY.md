@@ -16,7 +16,7 @@
   * [Template Literals](regular-expressions/template-literals.md)
   * [Summary](regular-expressions/summary.md)
 * [Functions](functions.md)
-  * Functions with Default Parameter Values
+  * [Functions with Default Parameter Values](functions/functions-with-default-parameter-values.md)
   * [Working with Unnamed Parameters](functions/unnamed-parameters-in-ecmascript-5.md)
   * [Increased Capabilities of the Function Constructor](functions/increased-capabilities-of-the-function-constructor.md)
   * The Spread Operator
