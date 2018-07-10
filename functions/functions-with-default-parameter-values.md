@@ -61,3 +61,15 @@ makeRequest("/foo", 500, function(body) {
 
 url是必需的，其他两个参数是可选的。
 
+可以给任意参数提供默认值。
+
+```js
+function makeRequest(url, timeout = 2000, callback) {
+
+    // the rest of the function
+
+}
+```
+
+timeout默认值只有在以下情况被用到：1、没有第二个参数传入；2、第二个参数传入的值是undefined。
+
