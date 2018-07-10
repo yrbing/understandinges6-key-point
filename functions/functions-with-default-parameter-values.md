@@ -15,5 +15,5 @@ function makeRequest(url, timeout, callback) {
 }
 ```
 
-没有明确提供的函数参数将被设定为undefined，因此使用逻辑或（logical OR operator）可以为缺失参数提供默认值。
+没有明确提供的函数参数将被设定为undefined，因此使用逻辑或（logical OR operator）可以为缺失的参数提供默认值。
 
