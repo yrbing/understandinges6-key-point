@@ -36,3 +36,13 @@ function makeRequest(url, timeout, callback) {
 
 ES6通过初始化给参数提供默认值，如果参数没有被正式的传递过来。
 
+```js
+function makeRequest(url, timeout = 2000, callback = function() {}) {
+
+    // the rest of the function
+
+}
+```
+
+
+
