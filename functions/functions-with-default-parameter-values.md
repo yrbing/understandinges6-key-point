@@ -59,5 +59,5 @@ makeRequest("/foo", 500, function(body) {
 });
 ```
 
-
+url是必需的，其他两个参数是可选的。
 
