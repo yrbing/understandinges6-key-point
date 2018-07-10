@@ -19,3 +19,18 @@ function makeRequest(url, timeout, callback) {
 
 这个方法的缺陷在于，如果函数的有效参数可能为0，也仍然会被替换。
 
+更安全的替代方法使用typeof判断参数类型：
+
+```js
+function makeRequest(url, timeout, callback) {
+
+    timeout = (typeof timeout !== "undefined") ? timeout : 2000;
+    callback = (typeof callback !== "undefined") ? callback : function() {};
+
+    // the rest of the function
+
+}
+```
+
+
+
