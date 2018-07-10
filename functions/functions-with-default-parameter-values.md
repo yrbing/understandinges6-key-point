@@ -44,5 +44,20 @@ function makeRequest(url, timeout = 2000, callback = function() {}) {
 }
 ```
 
+如果三个参数都传递了，defaults不会被使用。
+
+```js
+// uses default timeout and callback
+makeRequest("/foo");
+
+// uses default callback
+makeRequest("/foo", 500);
+
+// doesn't use defaults
+makeRequest("/foo", 500, function(body) {
+    doSomething(body);
+});
+```
+
 
 
