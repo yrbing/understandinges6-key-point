@@ -73,3 +73,20 @@ function makeRequest(url, timeout = 2000, callback) {
 
 timeout默认值只有在以下情况被用到：1、没有第二个参数传入；2、第二个参数传入的值是`undefined`。
 
+```js
+// uses default timeout
+makeRequest("/foo", undefined, function(body) {
+    doSomething(body);
+});
+
+// uses default timeout
+makeRequest("/foo");
+
+// doesn't use default timeout
+makeRequest("/foo", null, function(body) {
+    doSomething(body);
+});
+```
+
+
+
