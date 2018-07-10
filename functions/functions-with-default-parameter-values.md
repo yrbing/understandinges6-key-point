@@ -34,6 +34,5 @@ function makeRequest(url, timeout, callback) {
 
 ### Default Parameter Values in ECMAScript 6
 
-  
-
+ES6通过初始化给参数提供默认值。
 
