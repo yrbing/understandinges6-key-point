@@ -146,3 +146,20 @@ false
 
 **由于默认参数值的出现，导致**`arguments`**对象和函数的命名参数保持分离。（如果没有默认参数值，在非严格模式下，就走ES5 nostrict那一套了。）**
 
+```js
+// not in strict mode
+function mixArgs(first, second = "b") {
+    console.log(arguments.length);
+    console.log(first === arguments[0]);
+    console.log(second === arguments[1]);
+    first = "c";
+    second = "d"
+    console.log(first === arguments[0]);
+    console.log(second === arguments[1]);
+}
+
+mixArgs("a");
+```
+
+
+
