@@ -92,5 +92,5 @@ makeRequest("/foo", null, function(body) {
 
 ### How Default Parameter Values Affect the arguments Object
 
-
+ES5 nostrict mode
 
