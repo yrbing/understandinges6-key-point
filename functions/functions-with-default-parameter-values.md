@@ -177,5 +177,5 @@ false
 
 ### Default Parameter Expressions
 
-默认参数值，需要是一个原始值（primitive value）
+默认参数值，需要是一个原始值（primitive value）。
 
