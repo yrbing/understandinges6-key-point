@@ -94,3 +94,27 @@ makeRequest("/foo", null, function(body) {
 
 ES5 nostrict mode，`arguments`对象反应了命名参数的变化。
 
+```js
+function mixArgs(first, second) {
+    console.log(first === arguments[0]);
+    console.log(second === arguments[1]);
+    first = "c";
+    second = "d";
+    console.log(first === arguments[0]);
+    console.log(second === arguments[1]);
+}
+
+mixArgs("a", "b");
+```
+
+输出：
+
+```js
+true
+true
+true
+true
+```
+
+
+
