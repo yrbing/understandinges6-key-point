@@ -194,5 +194,5 @@ console.log(add(1, 1));     // 2
 console.log(add(1));        // 6
 ```
 
-
+getValue\(\)只有在add\(\)被调用时没有第二个参数时才会执行。
 
