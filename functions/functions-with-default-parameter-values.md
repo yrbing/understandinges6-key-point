@@ -175,3 +175,8 @@ false
 
 改变参数的值不会影响到arguments，在严格模式和非严格模式都是如此，因此`arguments`总是反映着初始的调用状态。
 
+### Default Parameter Expressions
+
+  
+
+
