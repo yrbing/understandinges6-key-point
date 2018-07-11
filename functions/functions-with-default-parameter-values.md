@@ -253,3 +253,8 @@ console.log(add(undefined, 1)); // throws error
 
 理解上面的情况，需要再看看TDZ\(temporal dead zones\)。
 
+### Default Parameter Value Temporal Dead Zone
+
+  
+
+
