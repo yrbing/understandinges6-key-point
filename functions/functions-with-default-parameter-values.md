@@ -196,3 +196,21 @@ console.log(add(1));        // 6
 
 getValue\(\)只有在add\(\)被调用时没有第二个参数时才会执行。
 
+```js
+let value = 5;
+
+function getValue() {
+    return value++;
+}
+
+function add(first, second = getValue()) {
+    return first + second;
+}
+
+console.log(add(1, 1));     // 2
+console.log(add(1));        // 6
+console.log(add(1));        // 7
+```
+
+
+
