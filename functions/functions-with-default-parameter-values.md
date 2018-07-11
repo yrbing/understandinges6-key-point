@@ -216,3 +216,14 @@ console.log(add(1));        // 7
 
 可以使用前面的参数作为后面参数的默认值。
 
+```js
+function add(first, second = first) {
+    return first + second;
+}
+
+console.log(add(1, 1));     // 2
+console.log(add(1));        // 2
+```
+
+
+
