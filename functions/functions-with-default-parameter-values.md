@@ -181,3 +181,18 @@ false
 
 可以通过执行一个函数获取这个默认参数值。
 
+```js
+function getValue() {
+    return 5;
+}
+
+function add(first, second = getValue()) {
+    return first + second;
+}
+
+console.log(add(1, 1));     // 2
+console.log(add(1));        // 6
+```
+
+
+
