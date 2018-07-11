@@ -161,5 +161,15 @@ function mixArgs(first, second = "b") {
 mixArgs("a");
 ```
 
+输出：
+
+```js
+1
+true
+false
+false
+false
+```
+
 
 
