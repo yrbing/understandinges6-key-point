@@ -212,5 +212,7 @@ console.log(add(1));        // 6
 console.log(add(1));        // 7
 ```
 
+> 注意使用函数时的括号。如果写的是second = getValue，传入的是一个引用而不是函数执行的值。
+
 
 
