@@ -251,5 +251,5 @@ console.log(add(1, 1));         // 2
 console.log(add(undefined, 1)); // throws error
 ```
 
-理解上面的情况，需要再看看TDZ\(temporal dead zones\)
+理解上面的情况，需要再看看TDZ\(temporal dead zones\)。
 
