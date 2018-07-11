@@ -227,3 +227,18 @@ console.log(add(1));        // 2
 
 再进一步，可以把前一个参数传入一个函数中，来获取后面的参数的值。
 
+```js
+function getValue(value) {
+    return value + 5;
+}
+
+function add(first, second = getValue(first)) {
+    return first + second;
+}
+
+console.log(add(1, 1));     // 2
+console.log(add(1));        // 7
+```
+
+
+
