@@ -171,5 +171,9 @@ false
 false
 ```
 
+`arguments[1]`的值是`undefined`。
+
+
+
 
 
