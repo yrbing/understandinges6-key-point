@@ -142,5 +142,5 @@ false
 false
 ```
 
-
+`arguments`对象在应用ES6默认参数的函数中，和ES5严格模式的表现是一样的。
 
