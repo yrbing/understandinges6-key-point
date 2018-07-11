@@ -242,3 +242,14 @@ console.log(add(1));        // 7
 
 只有在使用前面的参数计算后面的参数时才有效。前面的参数无法获取后面的参数（earlier arguments do not have access to later arguments）
 
+```js
+function add(first = second, second) {
+    return first + second;
+}
+
+console.log(add(1, 1));         // 2
+console.log(add(undefined, 1)); // throws error
+```
+
+
+
