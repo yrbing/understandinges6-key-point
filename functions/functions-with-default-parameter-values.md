@@ -305,5 +305,5 @@ let first = second;
 let second = 1;
 ```
 
-
+first初始化的时候，second还没有被初始化。此时，second在TDZ中，因此任何指向second的引用都会抛出错误。
 
