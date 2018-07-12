@@ -307,8 +307,6 @@ let second = 1;
 
 first初始化的时候，second还没有被初始化。此时，second在TDZ中，因此任何指向second的引用都会抛出错误。
 
-
-
 > * **肉饼备注：这里的错误不是由于**first**是**undefined**抛出的，而是**first=second**抛出的。因为传入undefined，会首先导致调用默认参数值。**
 > * 函数参数有自己的scope和自己的TDZ，和函数体scope是分开的。因此默认参数值也无法获取函数体内声明的任意变量。
 
