@@ -272,5 +272,17 @@ console.log(add(1, 1));     // 2
 console.log(add(1));        // 7
 ```
 
+函数的调用有效的执行了下面的代码创建first和second参数值：
+
+```js
+// JavaScript representation of call to add(1, 1)
+let first = 1;
+let second = 1;
+
+// JavaScript representation of call to add(1)
+let first = 1;
+let second = getValue(first);
+```
+
 
 
