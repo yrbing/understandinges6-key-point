@@ -284,5 +284,26 @@ let first = 1;
 let second = getValue(first);
 ```
 
+反过来则不是这样：
+
+```js
+function add(first = second, second) {
+    return first + second;
+}
+
+console.log(add(1, 1));         // 2
+console.log(add(undefined, 1)); // throws error
+```
+
+```js
+// JavaScript representation of call to add(1, 1)
+let first = 1;
+let second = 1;
+
+// JavaScript representation of call to add(undefined, 1)
+let first = second;
+let second = 1;
+```
+
 
 
