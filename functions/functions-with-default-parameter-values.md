@@ -257,3 +257,20 @@ console.log(add(undefined, 1)); // throws error
 
 默认参数值也有TDZ，在TDZ中参数无法被获取。
 
+考虑上面的例子：
+
+```js
+function getValue(value) {
+    return value + 5;
+}
+
+function add(first, second = getValue(first)) {
+    return first + second;
+}
+
+console.log(add(1, 1));     // 2
+console.log(add(1));        // 7
+```
+
+
+
