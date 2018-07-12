@@ -272,7 +272,7 @@ console.log(add(1, 1));     // 2
 console.log(add(1));        // 7
 ```
 
-函数的调用有效的执行了下面的代码创建first和second参数值：
+函数的调用有效的执行了下面的代码创建`first`和`second`参数值：
 
 ```js
 // JavaScript representation of call to add(1, 1)
