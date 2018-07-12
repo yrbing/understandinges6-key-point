@@ -255,6 +255,5 @@ console.log(add(undefined, 1)); // throws error
 
 ### Default Parameter Value Temporal Dead Zone
 
-  
-
+默认参数值也有TDZ，在TDZ中参数无法被获取。
 
