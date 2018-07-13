@@ -6,3 +6,29 @@ JS函数没有限制传入参数的个数，可以比函数定义时的命名参
 
 早期的JS提供了`arguments`对象，但使用`arguments`可能会非常笨重。
 
+```js
+function pick(object) {
+    let result = Object.create(null);
+
+    // start at the second parameter
+    for (let i = 1, len = arguments.length; i < len; i++) {
+        result[arguments[i]] = object[arguments[i]];
+    }
+
+    return result;
+}
+
+let book = {
+    title: "Understanding ECMAScript 6",
+    author: "Nicholas C. Zakas",
+    year: 2015
+};
+
+let bookData = pick(book, "author", "year");
+
+console.log(bookData.author);   // "Nicholas C. Zakas"
+console.log(bookData.year);     // 2015
+```
+
+
+
