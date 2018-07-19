@@ -56,3 +56,5 @@ function pick(object, ...keys) {
 
 只能有一个rest parameter，而且必须是函数最后一个参数。
 
+rest parameters不能被用在object literal setter。
+
