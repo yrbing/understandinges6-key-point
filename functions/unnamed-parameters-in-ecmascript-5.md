@@ -30,7 +30,7 @@ console.log(bookData.author);   // "Nicholas C. Zakas"
 console.log(bookData.year);     // 2015
 ```
 
-这个函数模拟了_Underscore.js_库的`pick()`方法。返回一个对象的属性的指定子集的拷贝。arguments包括了所有传递给方法的参数。
+这个函数模拟了_Underscore.js_库的`pick()`方法。返回一个对象的属性的指定子集的拷贝。第一，看不出pick可以接收更多参数；第二，arguments包括了所有传递给方法的参数。所以遍历要从index=1开始。
 
 ECMAScript 6 引入了 rest parameters 帮助解决这些问题。
 
