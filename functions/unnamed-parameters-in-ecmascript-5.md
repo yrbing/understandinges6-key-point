@@ -69,5 +69,8 @@ let object = {
 };
 ```
 
+#### How Rest Parameters Affect the arguments Object
+
+  
 
 
