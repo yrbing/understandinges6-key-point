@@ -55,7 +55,7 @@ function pick(object, ...keys) {
 #### Rest Parameter Restrictions
 
 1. 只能有一个rest parameter，而且必须是函数最后一个参数。
-2. rest parameters不能被用在object literal setter。
+2. rest parameters不能被用在object literal setter。因为object literal setters被限制为一个参数，rest parameters是一个无限数量的参数。
 
 因此下面的代码将会导致 syntax error:
 
