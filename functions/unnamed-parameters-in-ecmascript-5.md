@@ -50,5 +50,7 @@ function pick(object, ...keys) {
 }
 ```
 
+> Rest parameters do not affect a function’s`length`property, which indicates the number of named parameters for the function. The value of`length`for`pick()`in this example is 1 because only`object`counts towards this value.
+
 
 
