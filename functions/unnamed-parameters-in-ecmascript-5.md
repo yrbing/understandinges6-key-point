@@ -30,10 +30,11 @@ console.log(bookData.author);   // "Nicholas C. Zakas"
 console.log(bookData.year);     // 2015
 ```
 
+这个函数模拟了_Underscore.js_库的`pick()`方法。
+
 ECMAScript 6 引入了 rest parameters 帮助解决这些问题。
 
 ### Rest Parameters
 
-  
 
 
