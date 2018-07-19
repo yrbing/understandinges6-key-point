@@ -95,5 +95,5 @@ a a
 b b
 ```
 
-
+arguments对象总是正确的反映着传入函数的参数，无视rest parameters是否存在。
 
