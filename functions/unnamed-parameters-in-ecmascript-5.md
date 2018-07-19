@@ -71,6 +71,5 @@ let object = {
 
 #### How Rest Parameters Affect the arguments Object
 
-  
-
+rest parameters被设计用来替代arguments。
 
