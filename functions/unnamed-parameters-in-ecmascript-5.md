@@ -36,5 +36,5 @@ ECMAScript 6 引入了 rest parameters 帮助解决这些问题。
 
 ### Rest Parameters
 
-_rest parameter _一个命名参数前门加上三个点\(...\)。
+_rest parameter _一个命名参数前门加上三个点\(...\)。这个命名参数会成为一个包括余下所有传递给函数的参数的数组。
 
