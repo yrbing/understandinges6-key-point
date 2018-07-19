@@ -54,5 +54,5 @@ function pick(object, ...keys) {
 
 #### Rest Parameter Restrictions
 
-只能有一个rest parameter，而且必须是最后一个参数。
+只能有一个rest parameter，而且必须是函数最后一个参数。
 
