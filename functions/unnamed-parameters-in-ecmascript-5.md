@@ -54,7 +54,20 @@ function pick(object, ...keys) {
 
 #### Rest Parameter Restrictions
 
-只能有一个rest parameter，而且必须是函数最后一个参数。
+1. 只能有一个rest parameter，而且必须是函数最后一个参数。
+2. rest parameters不能被用在object literal setter。
 
-rest parameters不能被用在object literal setter。
+syntax error:
+
+```js
+let object = {
+
+    // Syntax error: Can't use rest param in setter
+    set name(...value) {
+        // do something
+    }
+};
+```
+
+
 
