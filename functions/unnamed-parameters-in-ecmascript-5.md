@@ -30,11 +30,25 @@ console.log(bookData.author);   // "Nicholas C. Zakas"
 console.log(bookData.year);     // 2015
 ```
 
-这个函数模拟了_Underscore.js_库的`pick()`方法。返回一个对象的属性的指定子集的拷贝。
+这个函数模拟了_Underscore.js_库的`pick()`方法。返回一个对象的属性的指定子集的拷贝。arguments包括了所有传递给方法的参数。
 
 ECMAScript 6 引入了 rest parameters 帮助解决这些问题。
 
 ### Rest Parameters
 
 _rest parameter _一个命名参数前门加上三个点\(...\)。这个命名参数会成为一个包括余下所有传递给函数的参数的数组。仍然是`pick()`方法。
+
+```js
+function pick(object, ...keys) {
+    let result = Object.create(null);
+
+    for (let i = 0, len = keys.length; i < len; i++) {
+        result[keys[i]] = object[keys[i]];
+    }
+
+    return result;
+}
+```
+
+
 
