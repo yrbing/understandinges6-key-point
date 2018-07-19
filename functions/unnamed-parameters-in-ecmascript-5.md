@@ -86,5 +86,14 @@ function checkArgs(...args) {
 checkArgs("a", "b");
 ```
 
+输出
+
+```js
+2
+2
+a a
+b b
+```
+
 
 
