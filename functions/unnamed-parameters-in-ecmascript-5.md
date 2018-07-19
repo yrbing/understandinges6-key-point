@@ -57,7 +57,7 @@ function pick(object, ...keys) {
 1. 只能有一个rest parameter，而且必须是函数最后一个参数。
 2. rest parameters不能被用在object literal setter。
 
-syntax error:
+因此下面的代码将会导致 syntax error:
 
 ```js
 let object = {
