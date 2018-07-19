@@ -71,5 +71,20 @@ let object = {
 
 #### How Rest Parameters Affect the arguments Object
 
-rest parameters被设计用来替代`arguments`。最初，ECMAScript 4就移除了`arguments`并且增加了rest parameters，允许给函数传入不限制数量的参数。ECMAScript 4从未问世，但这个思想在ES6中被引入了，尽管并没有移除`arguments`。 
+rest parameters被设计用来替代`arguments`。最初，ECMAScript 4就移除了`arguments`并且增加了rest parameters，允许给函数传入不限制数量的参数。ECMAScript 4从未问世，但这个思想在ES6中被引入了，尽管并没有移除`arguments`。
+
+arguments对象和rest parameters共同工作在反映调用时传入函数的参数上。
+
+```js
+function checkArgs(...args) {
+    console.log(args.length);
+    console.log(arguments.length);
+    console.log(args[0], arguments[0]);
+    console.log(args[1], arguments[1]);
+}
+
+checkArgs("a", "b");
+```
+
+
 
