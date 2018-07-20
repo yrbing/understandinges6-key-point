@@ -10,5 +10,5 @@ var add = new Function("first", "second", "return first + second");
 console.log(add(1, 1));     // 2
 ```
 
-
+ES6增加了函数构造函数使用default parameters和rest parameters的能力。
 
