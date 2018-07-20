@@ -26,5 +26,5 @@ var pickFirst = new Function("...args", "return args[0]");
 console.log(pickFirst(1, 2));   // 1
 ```
 
-
+增加default parameters和rest parameters确保了Function构造函数和通过声明形式创建函数有同样的能力。
 
