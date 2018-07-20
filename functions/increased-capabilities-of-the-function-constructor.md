@@ -20,5 +20,11 @@ console.log(add(1, 1));     // 2
 console.log(add(1));        // 2
 ```
 
+```js
+var pickFirst = new Function("...args", "return args[0]");
+
+console.log(pickFirst(1, 2));   // 1
+```
+
 
 
