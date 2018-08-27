@@ -10,7 +10,7 @@ ECMAScript 6 扩展了 JavaScript 处理 string 的能力。
 
 `endsWith()`
 
-每一个方法都接收两个参数：搜索的文本和可选的index。对于`endsWith()`，index以为这结束的位置index-1。
+每一个方法都接收两个参数：搜索的文本和可选的index。对于`endsWith()`，index为字符串长度取值，结束的位置为index-1。
 
 ```js
 var msg = "Hello world!";

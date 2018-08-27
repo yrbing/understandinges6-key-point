@@ -20,7 +20,7 @@
   * [Working with Unnamed Parameters](functions/unnamed-parameters-in-ecmascript-5.md)
   * [Increased Capabilities of the Function Constructor](functions/increased-capabilities-of-the-function-constructor.md)
   * [The Spread Operator](functions/the-spread-operator.md)
-  * ECMAScript 6’s name Property
+  * [ECMAScript 6’s name Property](functions/ecmascript-6s-name-property.md)
   * [Clarifying the Dual Purpose of Functions](functions/clarifying-the-dual-purpose-of-functions.md)
   * [Block-Level Functions](functions/block-level-functions.md)
   * Arrow Functions
