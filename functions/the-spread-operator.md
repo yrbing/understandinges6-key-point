@@ -23,3 +23,5 @@ console.log(Math.max.apply(Math, values));  // 100
 
 This solution works，但是以这种方式应用`apply()`显得有些意义模糊，不容易看出原本代码的真实意图。
 
+ECMAScript 6 spread operator 可以使事情变得简单。
+
