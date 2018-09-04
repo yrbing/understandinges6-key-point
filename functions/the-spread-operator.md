@@ -21,5 +21,5 @@ let values = [25, 50, 75, 100]
 console.log(Math.max.apply(Math, values));  // 100
 ```
 
-
+This solution works，但是以这种方式应用`apply()`显得有些意义模糊。
 
