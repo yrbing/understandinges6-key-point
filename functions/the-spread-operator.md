@@ -4,7 +4,7 @@
 
 rest parameters 允许你指定多个独立的参数合并为一个数组，the spread operator 允许你指定一个数组，对其进行拆分并且将每一个item当做单独的参数传入函数。
 
-`Math.max()`方法：
+`Math.max()`方法，接受许多number参数，返回其中最大的一个：
 
 ```js
 let value1 = 25,
