@@ -13,7 +13,7 @@ let value1 = 25,
 console.log(Math.max(value1, value2));      // 50
 ```
 
-万一你碰到的是一个数组
+如果只有两个值，`Math.max()`使用起来很简单。但万一你碰到的是一个数组
 
 ```js
 let values = [25, 50, 75, 100]
