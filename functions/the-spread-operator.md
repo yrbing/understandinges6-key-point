@@ -33,7 +33,9 @@ let values = [25, 50, 75, 100]
 console.log(Math.max(...values));           // 100
 ```
 
-这种用法看起来更加符合编程习惯。
+这种写法看起来更加符合编程习惯。
+
+spread operator可以和其他参数混合使用。
 
 ```js
 let values = [-25, -50, -75, -100]
