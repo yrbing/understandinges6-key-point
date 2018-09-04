@@ -33,5 +33,5 @@ let values = [25, 50, 75, 100]
 console.log(Math.max(...values));           // 100
 ```
 
-
+这种用法看起来更加符合编程习惯。
 
