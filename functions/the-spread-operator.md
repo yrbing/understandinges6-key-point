@@ -25,3 +25,13 @@ This solution works，但是以这种方式应用`apply()`显得有些意义模�
 
 ECMAScript 6 spread operator 可以使事情变得简单。
 
+```js
+let values = [25, 50, 75, 100]
+
+// equivalent to
+// console.log(Math.max(25, 50, 75, 100));
+console.log(Math.max(...values));           // 100
+```
+
+
+
