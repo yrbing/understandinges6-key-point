@@ -48,3 +48,15 @@ console.log(descriptor.get.name); // "get firstName"
 
 使用bind\(\)创建的函数和使用`Function`constructor创建的函数——
 
+```js
+var doSomething = function() {
+    // ...
+};
+
+console.log(doSomething.bind().name);   // "bound doSomething"
+
+console.log((new Function()).name);     // "anonymous"
+```
+
+
+
