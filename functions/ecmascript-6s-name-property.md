@@ -23,6 +23,8 @@ console.log(doAnotherThing.name);       // "doAnotherThing"
 
 ### Special Cases of the name Property
 
+\(Both getter and setter functions must be retrieved using`Object.getOwnPropertyDescriptor()`.\)
+
 ```js
 var doSomething = function doSomethingElse() {
     // ...
@@ -44,5 +46,7 @@ var descriptor = Object.getOwnPropertyDescriptor(person, "firstName");
 console.log(descriptor.get.name); // "get firstName"
 ```
 
-\(Both getter and setter functions must be retrieved using`Object.getOwnPropertyDescriptor()`.\)
+
+
+bind\(\)
 
