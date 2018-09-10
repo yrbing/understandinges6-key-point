@@ -60,8 +60,5 @@ console.log((new Function()).name);     // "anonymous"
 
 Keep in mind that the value of`name`for any function does not necessarily refer to a variable of the same name. The`name`property is meant to be informative, to help with debugging, so there’s no way to use the value of`name`to get a reference to the function.
 
-name属性只是用来获取信息的，并不refer to同名的变量。
-
-  
-
+**name属性只是用来获取信息的，并不refer to同名的变量。**
 
