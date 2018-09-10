@@ -45,5 +45,5 @@ console.log(Math.max(...values, 0));        // 0
 
 参数传递时使用 spread operator 使得应用数组作为函数参数更为简单。在很多情况下，spread operator可以替代`apply()`方法。
 
-在ES6中，JS `Function`constructor也可以接受两种类型的参数。
+在ES6中，JS `Function `constructor也可以接受两种类型的参数。
 
