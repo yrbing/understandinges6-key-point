@@ -18,3 +18,5 @@ console.log(notAPerson);    // "undefined"
 
 创建`notAPerson`时，不使用`new`调用`Person()`，`notAPerson`的值是`undefined`。（在非严格模式下，在全局对象上set了一个`name`属性。）
 
+`Person`的首字母大写只是一个指示器，表示这个函数应该使用`new`调用。
+
