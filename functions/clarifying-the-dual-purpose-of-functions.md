@@ -16,5 +16,5 @@ console.log(person);        // "[Object object]"
 console.log(notAPerson);    // "undefined"
 ```
 
-创建notAPerson时，不适用new调用Person\(\)，notAPerson的是undefined。（在非严格模式下，在全局对象上set了一个name属性。）
+创建`notAPerson`时，不使用`new`调用Person\(\)，notAPerson的是undefined。（在非严格模式下，在全局对象上set了一个name属性。）
 
