@@ -22,5 +22,5 @@ console.log(notAPerson);    // "undefined"
 
 函数的双重角色令人困惑，因此在ES6中做了一些改变。
 
-JS函数有两个不同的仅内部可用的方法：
+JS函数有两个不同的仅内部可用的方法：`[[Call]]`and`[[Construct]]`。
 
