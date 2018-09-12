@@ -20,3 +20,5 @@ console.log(notAPerson);    // "undefined"
 
 `Person`的首字母大写只是一个指示器，表示这个函数应该使用`new`调用。在JS程序中普遍这样使用。
 
+函数的双重角色令人困惑，在ES6中做了一些改变。
+
