@@ -24,3 +24,5 @@ console.log(notAPerson);    // "undefined"
 
 JS函数有两个不同的仅内部可用的方法：`[[Call]]`and`[[Construct]]`。当一个函数被调用时没有使用 `new`，则`[[Call]]`方法被执行，执行函数body中的代码（which executes the body of the function as it appears in the code）。当一个函数被调用时使用了 `new`，则`[[Construct]]`方法被执行。`[[Construct]]`方法负责创建一个新对象，叫做 new target，然后执行这个函数body，并且将`this`设置为这个new target。（ The`[[Construct]]`method is responsible for creating a new object, called the n_ew target_, and then executing the function body with`this`set to the new target.）
 
+有`[[Construct]]`方法的Functions被称为 _constructors_.
+
