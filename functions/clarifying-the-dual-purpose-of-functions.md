@@ -22,5 +22,5 @@ console.log(notAPerson);    // "undefined"
 
 函数的双重角色令人困惑，因此在ES6中做了一些改变。
 
-JS函数有两个不同的仅内部可用的方法：`[[Call]]`and`[[Construct]]`。当一个函数被调用时没有使用 `new`，则`[[Call]]`方法被执行，执行函数body中的代码（which executes the body of the function as it appears in the code）。
+JS函数有两个不同的仅内部可用的方法：`[[Call]]`and`[[Construct]]`。当一个函数被调用时没有使用 `new`，则`[[Call]]`方法被执行，执行函数body中的代码（which executes the body of the function as it appears in the code）。当一个函数被调用时使用了 `new`，则`[[Construct]]`方法被执行
 
