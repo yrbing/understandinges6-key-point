@@ -26,3 +26,7 @@ JS函数有两个不同的仅内部可用的方法：`[[Call]]`and`[[Construct]]
 
 有`[[Construct]]`方法的Functions被称为 _constructors_.
 
+> Keep in mind that not all functions have`[[Construct]]`, and therefore not all functions can be called with `new`. Arrow functions, discussed in the “Arrow Functions” section, do not have a`[[Construct]]`method.
+
+
+
