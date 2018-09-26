@@ -18,9 +18,9 @@ console.log(notAPerson);    // "undefined"
 
 创建`notAPerson`时，不使用`new`调用`Person()`，`notAPerson`的值是`undefined`。（在非严格模式下，在全局对象上set了一个`name`属性。）
 
-`Person`的首字母大写只是一个指示器，表示这个函数应该使用`new`调用。在JS程序中普遍这样使用。
+`Person`的首字母大写**只是一个指示器**，表示这个函数应该使用`new`调用。在JS程序中普遍这样使用。
 
 函数的双重角色令人困惑，因此在ES6中做了一些改变。
 
-JS函数有两个不同的仅内部可用的方法：`[[Call]]`and`[[Construct]]`。
+JS函数有两个不同的仅内部可用的方法：`[[Call]]`and`[[Construct]]`。当一个函数被调用时没有使用 `new`，则`[[Call]]`方法被执行。
 
