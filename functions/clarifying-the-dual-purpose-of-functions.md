@@ -32,3 +32,18 @@ JS函数有两个不同的仅内部可用的方法：`[[Call]]`and`[[Construct]]
 
 在ES5中，判断一个函数是不是用new调用的（and hence, with constructor），最常用的方式是使用instanceof。
 
+```js
+function Person(name) {
+    if (this instanceof Person) {
+        this.name = name;   // using new
+    } else {
+        throw new Error("You must use new with Person.")
+    }
+}
+
+var person = new Person("Nicholas");
+var notAPerson = Person("Nicholas");  // throws error
+```
+
+
+
