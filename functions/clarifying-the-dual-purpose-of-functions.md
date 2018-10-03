@@ -47,3 +47,5 @@ var notAPerson = Person("Nicholas");  // throws error
 
 这个方法可用是因为`[[Construct]]`方法创建了`Person`的新实例，并且赋值给了`this`。
 
+但这个方法并不完全可信。
+
