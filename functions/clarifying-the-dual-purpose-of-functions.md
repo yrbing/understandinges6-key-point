@@ -68,7 +68,7 @@ var notAPerson = Person.call(person, "Michael");    // works!
 
 为了解决这个问题，ES6引入了元属性。
 
-> A metaproperty is a property of a non-object that provides additional information related to its target \(such as`new`\).
+> A metaproperty is a **property of a non-object** that provides additional information related to its target \(such as`new`\).
 
-
+当一个函数的\[\[Construct\]\]方法被调用，
 
