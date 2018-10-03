@@ -66,6 +66,5 @@ var notAPerson = Person.call(person, "Michael");    // works!
 
 ### The new.target MetaProperty
 
-  
-
+为了解决这个问题，ES6引入了元属性。
 
