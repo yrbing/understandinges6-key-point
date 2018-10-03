@@ -49,5 +49,18 @@ var notAPerson = Person("Nicholas");  // throws error
 
 但这个方法并不完全可信。
 
+```js
+function Person(name) {
+    if (this instanceof Person) {
+        this.name = name;   // using new
+    } else {
+        throw new Error("You must use new with Person.")
+    }
+}
+
+var person = new Person("Nicholas");
+var notAPerson = Person.call(person, "Michael");    // works!
+```
+
 
 
