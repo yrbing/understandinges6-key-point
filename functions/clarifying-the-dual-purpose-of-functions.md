@@ -72,3 +72,8 @@ var notAPerson = Person.call(person, "Michael");    // works!
 
 当一个函数的`[[Construct]]`方法被调用，`new.target`会存储`new`操作符的target。新创建的对象在函数体内会成为`this`的值，构造器则是这个target。（That target is typically the **constructor** of the newly created object instance that will become`this`inside the function body.）如果`[[Call]]`执行，`new.target`值是`undefined`。
 
+检查new.target是否被defined可以用来安全的检测一个函数是否是用new来调用的。
+
+  
+
+
