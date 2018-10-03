@@ -74,6 +74,9 @@ var notAPerson = Person.call(person, "Michael");    // works!
 
 检查new.target是否被defined可以用来安全的检测一个函数是否是用new来调用的。
 
-  
+```js
+
+```
+
 
 
