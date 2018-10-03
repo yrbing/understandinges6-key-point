@@ -106,3 +106,7 @@ var anotherPerson = new AnotherPerson("Nicholas");  // error!
 
 When`new AnotherPerson("Nicholas")`is called，new.target的值是undefined.
 
+> **Warning: Using`new.target`outside of a function is a syntax error.**
+
+
+
