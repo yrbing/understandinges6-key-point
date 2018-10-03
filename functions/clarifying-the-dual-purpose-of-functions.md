@@ -70,5 +70,5 @@ var notAPerson = Person.call(person, "Michael");    // works!
 
 > A metaproperty is a **property of a non-object** that provides additional information related to its target \(such as`new`\).
 
-当一个函数的\[\[Construct\]\]方法被调用，
+当一个函数的`[[Construct]]`方法被调用，new.target会存储new操作符的target。
 
