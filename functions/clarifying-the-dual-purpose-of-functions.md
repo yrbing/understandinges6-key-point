@@ -87,5 +87,22 @@ var person = new Person("Nicholas");
 var notAPerson = Person.call(person, "Michael");    // error!
 ```
 
+```js
+function Person(name) {
+    if (new.target === Person) {
+        this.name = name;   // using new
+    } else {
+        throw new Error("You must use new with Person.")
+    }
+}
+
+function AnotherPerson(name) {
+    Person.call(this, name);
+}
+
+var person = new Person("Nicholas");
+var anotherPerson = new AnotherPerson("Nicholas");  // error!
+```
+
 
 
