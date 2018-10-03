@@ -75,7 +75,16 @@ var notAPerson = Person.call(person, "Michael");    // works!
 检查new.target是否被defined可以用来安全的检测一个函数是否是用new来调用的。
 
 ```js
+function Person(name) {
+    if (typeof new.target !== "undefined") {
+        this.name = name;   // using new
+    } else {
+        throw new Error("You must use new with Person.")
+    }
+}
 
+var person = new Person("Nicholas");
+var notAPerson = Person.call(person, "Michael");    // error!
 ```
 
 
