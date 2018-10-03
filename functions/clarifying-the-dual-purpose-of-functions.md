@@ -45,5 +45,5 @@ var person = new Person("Nicholas");
 var notAPerson = Person("Nicholas");  // throws error
 ```
 
-
+这个方法可用是因为`[[Construct]]`方法创建了`Person`的新实例，并且赋值给了this。
 
