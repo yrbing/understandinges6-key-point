@@ -49,3 +49,5 @@ var notAPerson = Person("Nicholas");  // throws error
 
 但这个方法并不完全可信。
 
+
+
