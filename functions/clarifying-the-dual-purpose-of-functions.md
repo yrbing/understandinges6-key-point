@@ -104,5 +104,5 @@ var person = new Person("Nicholas");
 var anotherPerson = new AnotherPerson("Nicholas");  // error!
 ```
 
-
+When`new AnotherPerson("Nicholas")`is called，new.target的值是undefined.
 
