@@ -64,3 +64,8 @@ var notAPerson = Person.call(person, "Michael");    // works!
 
 没有办法分辨这种方式和使用new调用的方式。
 
+### The new.target MetaProperty
+
+  
+
+
