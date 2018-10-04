@@ -108,5 +108,9 @@ When`new AnotherPerson("Nicholas")`is called，new.target的值是undefined.
 
 > **Warning: Using`new.target`outside of a function is a syntax error.**
 
+By adding
 
+`new.target`
+
+, ECMAScript 6 helped to clarify some ambiguity around functions calls. Following on this theme, ECMAScript 6 also addresses another previously ambiguous part of the language: declaring functions inside of blocks.
 
