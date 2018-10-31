@@ -82,5 +82,5 @@ if (true) {
 console.log(typeof doSomething);            // "function"
 ```
 
-
+ES6标准化了block-level function的行为。
 
