@@ -58,5 +58,5 @@ if (true) {
 console.log(typeof doSomething);
 ```
 
-
+代码会在执行到typeof时停止。
 
