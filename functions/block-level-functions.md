@@ -58,5 +58,5 @@ if (true) {
 console.log(typeof doSomething);
 ```
 
-代码会在执行到typeof时停止。
+代码会在执行到typeof时停止，因为let语句还没有被执行，所以doSomething\(\)在TDZ中。
 
