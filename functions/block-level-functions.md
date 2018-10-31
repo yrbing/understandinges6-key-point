@@ -66,3 +66,21 @@ console.log(typeof doSomething);
 
 ES6同时也允许非严格模式的 block-level function，但行为略有不同。声明不是被提升到top of the block，而是被提升到function或者global environment。
 
+```js
+// ECMAScript 6 behavior
+if (true) {
+
+    console.log(typeof doSomething);        // "function"
+
+    function doSomething() {
+        // ...
+    }
+
+    doSomething();
+}
+
+console.log(typeof doSomething);            // "function"
+```
+
+
+
