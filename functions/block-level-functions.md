@@ -37,3 +37,8 @@ console.log(typeof doSomething);            // "undefined"
 
 声明提升：块级函数会被提升到block的顶部，因此typeof返回function。
 
+### Deciding When to Use Block-Level Functions
+
+  
+
+
