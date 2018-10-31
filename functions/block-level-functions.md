@@ -18,3 +18,22 @@ if (true) {
 
 在ES6中，函数被认为是block-level的声明，在same block中可以被access和called。
 
+```js
+"use strict";
+
+if (true) {
+
+    console.log(typeof doSomething);        // "function"
+
+    function doSomething() {
+        // ...
+    }
+
+    doSomething();
+}
+
+console.log(typeof doSomething);            // "undefined"
+```
+
+
+
