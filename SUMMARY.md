@@ -24,6 +24,6 @@
   * [Clarifying the Dual Purpose of Functions](functions/clarifying-the-dual-purpose-of-functions.md)
   * [Block-Level Functions](functions/block-level-functions.md)
   * [Arrow Functions](functions/arrow-functions.md)
-  * Tail Call Optimization
+  * [Tail Call Optimization](functions/tail-call-optimization.md)
   * Summary
 
