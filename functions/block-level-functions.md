@@ -82,5 +82,5 @@ if (true) {
 console.log(typeof doSomething);            // "function"
 ```
 
-ES6标准化了block-level function的行为，去除了不兼容的浏览器行为。
+ES6标准化了block-level function的行为，解决了不兼容的浏览器行为。
 
