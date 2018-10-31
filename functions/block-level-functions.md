@@ -64,6 +64,5 @@ console.log(typeof doSomething);
 
 ### Block-Level Functions in Nonstrict Mode
 
-ES6同时也允许非严格模式的 block-level function，但行为略有不同。  
-
+ES6同时也允许非严格模式的 block-level function，但行为略有不同。声明不是被提升到top of the block，而是被提升到function或者global environment。
 
