@@ -1,4 +1,4 @@
-## Block-Level Functions
+## 关键Block-Level Functions
 
 在ES3及之前，出现在block中的函数声明是syntax error，但是所有的浏览器都支持这样做。但是每个浏览器都有些微的差别。因此最好的方式是避免在block中进行function declarations（最好的替代方法是使用function expression）。
 
@@ -39,7 +39,5 @@ console.log(typeof doSomething);            // "undefined"
 
 ### Deciding When to Use Block-Level Functions
 
-块级函数声明和使用let的函数表达式类似，当执行流到了block之外，函数定义都会被移除。
-
-
+块级函数声明和使用let的函数表达式类似，当执行流到了block之外，函数定义都会被移除。关键的不同是声明提升。
 
