@@ -39,5 +39,24 @@ console.log(typeof doSomething);            // "undefined"
 
 ### Deciding When to Use Block-Level Functions
 
-块级函数声明和使用let的函数表达式类似，当执行流到了block之外，函数定义都会被移除。关键的不同是声明提升。
+块级函数声明和使用let的函数表达式类似，当执行流到了block之外，函数定义都会被移除。关键的不同是声明提升，可以参考第一章let部分。
+
+```js
+"use strict";
+
+if (true) {
+
+    console.log(typeof doSomething);        // throws error
+
+    let doSomething = function () {
+        // ...
+    }
+
+    doSomething();
+}
+
+console.log(typeof doSomething);
+```
+
+
 
