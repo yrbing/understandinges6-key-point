@@ -60,3 +60,5 @@ console.log(typeof doSomething);
 
 代码会在执行到typeof时停止，因为let语句还没有被执行，所以doSomething\(\)在TDZ中。
 
+因此，通过是否需要hoisting行为来决定使用block level functions或者let 表达式。
+
