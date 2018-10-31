@@ -39,6 +39,7 @@ console.log(typeof doSomething);            // "undefined"
 
 ### Deciding When to Use Block-Level Functions
 
-  
+块级函数声明和使用let的函数表达式类似，当执行流到了block之外，函数定义都会被移除。
+
 
 
