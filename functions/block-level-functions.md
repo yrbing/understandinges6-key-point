@@ -4,3 +4,17 @@
 
 为了尝试去抑制这种不兼容的行为，ES5严格模式引入了一个error。
 
+```js
+"use strict";
+
+if (true) {
+
+    // Throws a syntax error in ES5, not so in ES6
+    function doSomething() {
+        // ...
+    }
+}
+```
+
+
+
