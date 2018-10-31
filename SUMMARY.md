@@ -23,7 +23,7 @@
   * [ECMAScript 6’s name Property](functions/ecmascript-6s-name-property.md)
   * [Clarifying the Dual Purpose of Functions](functions/clarifying-the-dual-purpose-of-functions.md)
   * [Block-Level Functions](functions/block-level-functions.md)
-  * Arrow Functions
+  * [Arrow Functions](functions/arrow-functions.md)
   * Tail Call Optimization
   * Summary
 
