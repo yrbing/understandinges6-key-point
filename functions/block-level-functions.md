@@ -62,3 +62,8 @@ console.log(typeof doSomething);
 
 因此，通过是否需要hoisting行为来决定使用block level functions或者let 表达式。
 
+### Block-Level Functions in Nonstrict Mode
+
+ES6同时也允许非严格模式的 block-level function，但行为略有不同。  
+
+
