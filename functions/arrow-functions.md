@@ -10,6 +10,7 @@
   * 不能使用new，因此不需要prototype
 * **不能改变this**
   * 函数内的this值不能被改变，在整个函数生命周期中保持一样。It remains the same throughout the entire lifecycle of the function.
+* 没有arguments对象 **No`arguments`object**
 
 
 
