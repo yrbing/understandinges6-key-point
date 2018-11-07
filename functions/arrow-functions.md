@@ -4,7 +4,7 @@
 
 * **没有 this，super，arguments，new.target bindings**
   * this，super，arguments，new.target 的值是由最近的包裹箭头函数的 noarrow function 决定的。\(`super`is covered in Chapter 4.\)
-* **不能使用new调用 Cannot be called with`new`**
+* **不能使用new调用**
   * 箭头函数没有`[[Construct]]`方法
 * **没有原型 No prototype**
   * 不能使用new，因此不需要prototype
