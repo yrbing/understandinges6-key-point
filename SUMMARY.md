@@ -26,4 +26,13 @@
   * [Arrow Functions](functions/arrow-functions.md)
   * [Tail Call Optimization](functions/tail-call-optimization.md)
   * Summary
+* [Expanded Object Functionality](expanded-object-functionality.md)
+  * Object Categories
+  * Object Literal Syntax Extensions
+  * New Methods
+  * Duplicate Object Literal Properties
+  * [Own Property Enumeration Order](expanded-object-functionality/own-property-enumeration-order.md)
+  * More Powerful Prototypes
+  * A Formal Method Definition
+  * Summary
 
