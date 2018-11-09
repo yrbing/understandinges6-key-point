@@ -11,6 +11,7 @@
 * **不能改变this**
   * 函数内的this值不能被改变，在整个函数生命周期中保持一样。It remains the same throughout the entire lifecycle of the function.
 * **没有arguments对象**
+  * 箭头函数没有arguments binding，因此需要依赖 named parameters 和 rest parameters 来获取函数参数。
 
 
 
