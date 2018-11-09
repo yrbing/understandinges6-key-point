@@ -35,5 +35,5 @@ var reflect = function(value) {
 };
 ```
 
-
+超过一个参数，parentheses。
 
