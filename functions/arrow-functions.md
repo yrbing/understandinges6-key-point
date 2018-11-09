@@ -203,3 +203,5 @@ var PageHandler = {
 
 箭头函数没有this binding，箭头函数中的this的值需要通过looking up the scope chain来确定。
 
+如果箭头函数在一个nonarrow function中，this值和这个包裹它的函数一样；否则，this值和global scope中的this一样。
+
