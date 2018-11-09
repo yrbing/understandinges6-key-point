@@ -59,5 +59,19 @@ var getName = function() {
 };
 ```
 
+传统函数体，用braces包裹，同时清晰的定义返回值。
+
+```js
+var sum = (num1, num2) => {
+    return num1 + num2;
+};
+
+// effectively equivalent to:
+
+var sum = function(num1, num2) {
+    return num1 + num2;
+};
+```
+
 
 
