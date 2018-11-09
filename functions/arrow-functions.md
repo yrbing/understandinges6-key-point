@@ -141,6 +141,5 @@ console.log(person.getName());      // "Nicholas"
 
 ### No this Binding
 
-  
-
+一个函数的this值会因为函数被执行时的context而变化。
 
