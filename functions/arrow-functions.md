@@ -141,5 +141,24 @@ console.log(person.getName());      // "Nicholas"
 
 ### No this Binding
 
-一个函数的this值会因为函数被执行时的context而变化。
+**一个函数的this值会因为函数被执行时的context而变化。**
+
+```js
+var PageHandler = {
+
+    id: "123456",
+
+    init: function() {
+        document.addEventListener("click", function(event) {
+            this.doSomething(event.type);     // error
+        }, false);
+    },
+
+    doSomething: function(type) {
+        console.log("Handling " + type  + " for " + this.id);
+    }
+};
+```
+
+
 
