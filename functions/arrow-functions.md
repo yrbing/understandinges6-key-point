@@ -103,3 +103,5 @@ var getTempItem = function(id) {
 
 JS中函数最popular的用法就是创建一个IIEFs。IIEFs可以让你定义一个匿名函数，并且马上调用它，而且不需要saving a reference。
 
+当你想要创建一个scope，shielded from  the rest of a program。
+
