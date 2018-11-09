@@ -211,8 +211,7 @@ var PageHandler = {
 
 ```js
 var MyType = () => {},
-    object = new MyType();  // error - you can't use arrow functions with 'ne\
-w'
+    object = new MyType();  // error - you can't use arrow functions with 'new'
 ```
 
 
