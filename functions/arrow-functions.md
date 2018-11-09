@@ -119,5 +119,5 @@ let person = function(name) {
 console.log(person.getName());      // "Nicholas"
 ```
 
-
+IIEF非常有效的让name变成了返回对象的私有成员。
 
