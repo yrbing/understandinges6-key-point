@@ -121,3 +121,19 @@ console.log(person.getName());      // "Nicholas"
 
 IIEF非常有效的让name变成了返回对象的私有成员。
 
+```js
+let person = ((name) => {
+
+    return {
+        getName: function() {
+            return name;
+        }
+    };
+
+})("Nicholas");
+
+console.log(person.getName());      // "Nicholas"
+```
+
+
+
