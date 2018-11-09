@@ -201,5 +201,5 @@ var PageHandler = {
 };
 ```
 
-
+箭头函数没有this binding，
 
