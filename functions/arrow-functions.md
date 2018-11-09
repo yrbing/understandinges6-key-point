@@ -164,3 +164,22 @@ var PageHandler = {
 
 通过bind\(\)方法，将this绑定为PageHandler。
 
+```js
+var PageHandler = {
+
+    id: "123456",
+
+    init: function() {
+        document.addEventListener("click", (function(event) {
+            this.doSomething(event.type);     // no error
+        }).bind(this), false);
+    },
+
+    doSomething: function(type) {
+        console.log("Handling " + type  + " for " + this.id);
+    }
+};
+```
+
+
+
