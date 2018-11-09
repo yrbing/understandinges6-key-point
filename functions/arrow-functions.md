@@ -73,7 +73,7 @@ var sum = function(num1, num2) {
 };
 ```
 
-create a function that does nothing
+一个啥也不干的函数
 
 ```js
 var doNothing = () => {};
