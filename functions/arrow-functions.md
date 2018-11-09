@@ -23,7 +23,7 @@
 
 ### Arrow Function Syntax
 
-只有一个参数，直接使用。
+只有一个参数，直接使用
 
 ```js
 var reflect = value => value;
@@ -35,7 +35,7 @@ var reflect = function(value) {
 };
 ```
 
-超过一个参数，parentheses。
+超过一个参数，parentheses
 
 ```js
 var sum = (num1, num2) => num1 + num2;
@@ -47,5 +47,17 @@ var sum = function(num1, num2) {
 };
 ```
 
-没有参数，parentheses。
+没有参数，parentheses
+
+```js
+var getName = () => "Nicholas";
+
+// effectively equivalent to:
+
+var getName = function() {
+    return "Nicholas";
+};
+```
+
+
 
