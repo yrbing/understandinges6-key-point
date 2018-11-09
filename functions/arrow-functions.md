@@ -73,5 +73,15 @@ var sum = function(num1, num2) {
 };
 ```
 
+create a function that does nothing
+
+```js
+var doNothing = () => {};
+
+// effectively equivalent to:
+
+var doNothing = function() {};
+```
+
 
 
