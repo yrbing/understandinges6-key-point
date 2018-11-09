@@ -101,6 +101,5 @@ var getTempItem = function(id) {
 
 ### Creating Immediately-Invoked Function Expressions
 
-  
-
+JS中函数最popular的用法就是创建一个IIEFs。
 
