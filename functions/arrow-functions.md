@@ -185,5 +185,21 @@ var PageHandler = {
 
 更好的方式是使用arrow function。
 
+```js
+var PageHandler = {
+
+    id: "123456",
+
+    init: function() {
+        document.addEventListener("click",
+                event => this.doSomething(event.type), false);
+    },
+
+    doSomething: function(type) {
+        console.log("Handling " + type  + " for " + this.id);
+    }
+};
+```
+
 
 
