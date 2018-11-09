@@ -209,3 +209,11 @@ var PageHandler = {
 
 箭头函数被设计为“throwaway”函数，因此不能从来定义新的类型。箭头函数没有prototype。使用new会报错。
 
+```
+var MyType = () => {},
+    object = new MyType();  // error - you can't use arrow functions with 'ne\
+w'
+```
+
+
+
