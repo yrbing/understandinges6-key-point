@@ -137,5 +137,5 @@ let person = ((name) => {
 console.log(person.getName());      // "Nicholas"
 ```
 
-
+注意：括号只包裹箭头函数的定义，不包括传参。
 
