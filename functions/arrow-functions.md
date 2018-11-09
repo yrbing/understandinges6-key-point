@@ -83,7 +83,7 @@ var doNothing = () => {};
 var doNothing = function() {};
 ```
 
-返回一个对象，又不想用传统函数体
+返回一个对象字面量，又不想用传统函数体
 
 ```js
 var getTempItem = id => ({ id: id, name: "Temp" });
