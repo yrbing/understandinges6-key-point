@@ -15,9 +15,9 @@
 * 不允许重复名称的参数 **No duplicate named parameters**
   * strict or nostrict mode，noarrow gunction 只有在严格模式才不能用重复名字的参数
 
-> First and foremost, `this`binding is a common source of error in JavaScript.
+> 减少错误和歧义。First and foremost, `this`binding is a common source of error in JavaScript.
 >
-> Second，通过限制this的值为唯一的，JS引擎可以更加容易地优化函数执行。普通函数可能被用作 constructor，或者被修改。
+> 优化性能。Second，通过限制this的值为唯一的，JS引擎可以更加容易地**优化函数执行**。普通函数可能被用作 constructor，或者被修改。
 
 
 
