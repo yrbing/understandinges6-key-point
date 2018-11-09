@@ -181,5 +181,9 @@ var PageHandler = {
 };
 ```
 
+调用bind\(this\)，实际上是创建了一个新的函数。
+
+更好的方式是使用arrow function。
+
 
 
