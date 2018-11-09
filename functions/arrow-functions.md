@@ -17,7 +17,7 @@
 
 > First and foremost, `this`binding is a common source of error in JavaScript.
 >
-> Second，
+> Second，通过限制this的值为唯一的，JS引擎可以更加容易地优化函数操作。
 
 
 
