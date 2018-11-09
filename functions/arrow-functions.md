@@ -23,6 +23,17 @@
 
 ### Arrow Function Syntax
 
-  
+只有一个参数，直接使用。
+
+```js
+var reflect = value => value;
+
+// effectively equivalent to:
+
+var reflect = function(value) {
+    return value;
+};
+```
+
 
 
