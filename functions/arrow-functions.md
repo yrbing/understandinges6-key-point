@@ -205,3 +205,7 @@ var PageHandler = {
 
 **如果箭头函数在一个nonarrow function中，this值和这个包裹它的函数一样；否则，this值和global scope中的this一样。**
 
+---
+
+箭头函数被设计为“throwaway”函数，因此不能从来定义新的类型。
+
