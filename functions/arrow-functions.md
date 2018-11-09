@@ -105,3 +105,19 @@ JS中函数最popular的用法就是创建一个IIEFs。IIEFs可以让你定义�
 
 当你想要创建一个scope，shielded from  the rest of a program。
 
+```js
+let person = function(name) {
+
+    return {
+        getName: function() {
+            return name;
+        }
+    };
+
+}("Nicholas");
+
+console.log(person.getName());      // "Nicholas"
+```
+
+
+
