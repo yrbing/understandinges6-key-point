@@ -214,5 +214,5 @@ var MyType = () => {},
     object = new MyType();  // error - you can't use arrow functions with 'new'
 ```
 
-
+同时因为箭头函数的this是包裹它的函数决定的，因此不能通过call\(\)，apply\(\)，bing\(\)改变this。
 
