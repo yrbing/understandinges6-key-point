@@ -160,5 +160,7 @@ var PageHandler = {
 };
 ```
 
+在init中，this的值是document，而不是PageHandler。
 
+通过bind\(\)方法，将this绑定为PageHandler。
 
