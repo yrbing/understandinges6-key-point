@@ -15,7 +15,7 @@
 * 不允许重复名称的参数 **No duplicate named parameters**
   * strict or nostrict mode，noarrow gunction 只有在严格模式才不能用重复名字的参数
 
-> First and foremost，`this`binding is a common source of error in JavaScript.
+> First and foremost, `this`binding is a common source of error in JavaScript.
 >
 > Second，
 
