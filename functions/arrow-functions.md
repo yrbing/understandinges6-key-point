@@ -201,5 +201,5 @@ var PageHandler = {
 };
 ```
 
-箭头函数没有this binding，
+箭头函数没有this binding，箭头函数中的this的值需要通过looking up the scope chain来确定。
 
