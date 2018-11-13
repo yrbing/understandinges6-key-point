@@ -10,5 +10,5 @@ function doSomething() {
 }
 ```
 
-
+在ES5引擎中，tail calls的实现方式和其他函数调用一样：一个新的**堆栈帧 stack frame **被创建，并且push到当前的调用堆栈 call stack** **中。
 
