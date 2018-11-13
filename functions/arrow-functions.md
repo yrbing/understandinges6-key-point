@@ -258,5 +258,5 @@ var boundSum = sum.bind(null, 1, 2);
 console.log(boundSum());                // 3
 ```
 
-
+箭头函数很适合所有匿名函数的场景，比如callbacks。
 
