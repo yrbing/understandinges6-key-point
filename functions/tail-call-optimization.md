@@ -14,5 +14,5 @@ function doSomething() {
 
 ### What’s Different?
 
-ES6 对特定的tail calls 缩减了call stack的大小，仅仅在严格模式下。
+ES6 对特定的tail calls 缩减了call stack的大小，仅仅在严格模式下\(nonstrict mode tail calls are left untouched\)。
 
