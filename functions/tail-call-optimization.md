@@ -100,5 +100,19 @@ function factorial(n) {
 
 函数无法被优化，因为乘法发生在factorial迭代调用之后。因此需要把乘法从return语句中拿出来。
 
+```js
+function factorial(n, p = 1) {
+
+    if (n <= 1) {
+        return 1 * p;
+    } else {
+        let result = n * p;
+
+        // optimized
+        return factorial(n - 1, result);
+    }
+}
+```
+
 
 
