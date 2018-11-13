@@ -63,6 +63,8 @@ function doSomething() {
 }
 ```
 
+闭包：
+
 ```js
 "use strict";
 
