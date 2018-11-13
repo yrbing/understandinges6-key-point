@@ -79,6 +79,7 @@ function doSomething() {
 
 ### How to Harness Tail Call Optimization
 
-  
+实际上，因为tail call 优化发生在幕后，因此除非你想要优化函数的执行，否则不需要考虑它。
 
+tail call optimization 最主要的应用场景是 递归函数 recursive functions。
 
