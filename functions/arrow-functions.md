@@ -216,3 +216,7 @@ var MyType = () => {},
 
 同时因为箭头函数的this是包裹它的函数决定的，因此不能通过call\(\)，apply\(\)，bing\(\)改变this。
 
+### Arrow Functions and Arrays
+
+
+
