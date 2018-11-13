@@ -236,6 +236,12 @@ console.log(arrowFunction());       // 5
 
 ### Identifying Arrow Functions
 
-  
+```js
+var comparator = (a, b) => a - b;
+
+console.log(typeof comparator);                 // "function"
+console.log(comparator instanceof Function);    // true
+```
+
 
 
