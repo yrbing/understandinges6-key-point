@@ -18,3 +18,9 @@ ES6 对特定的tail calls 缩减了call stack的大小，仅仅在严格模式�
 
 前提是满足以下条件：
 
+1. tail call 不需要获取current stack frame的变量（非闭包）
+2. tail call 返回后，函数没有其他后续工作要做
+3. tail call的结果被当做函数的值返回
+
+
+
