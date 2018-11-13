@@ -232,5 +232,5 @@ var arrowFunction = createArrowFunctionReturningFirstArg(5);
 console.log(arrowFunction());       // 5
 ```
 
-
+箭头函数可以access包含它的函数的arguments对象。
 
