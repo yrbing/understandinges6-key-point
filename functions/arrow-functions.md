@@ -245,5 +245,5 @@ console.log(typeof comparator);                 // "function"
 console.log(comparator instanceof Function);    // true
 ```
 
-
+同样，也可以使用call\(\)，apply\(\)，bind\(\)在箭头函数上，尽管this-binding是不受到影响的。
 
