@@ -247,3 +247,16 @@ console.log(comparator instanceof Function);    // true
 
 同样，也可以使用call\(\)，apply\(\)，bind\(\)在箭头函数上，尽管this-binding是不受到影响的。
 
+```js
+var sum = (num1, num2) => num1 + num2;
+
+console.log(sum.call(null, 1, 2));      // 3
+console.log(sum.apply(null, [1, 2]));   // 3
+
+var boundSum = sum.bind(null, 1, 2);
+
+console.log(boundSum());                // 3
+```
+
+
+
