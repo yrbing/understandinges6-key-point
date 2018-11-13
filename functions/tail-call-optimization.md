@@ -42,7 +42,7 @@ function doSomething() {
 }
 ```
 
-perform an operation after returning from the tail call
+tail call 返回之后还有操作：
 
 ```js
 "use strict";
