@@ -81,5 +81,22 @@ function doSomething() {
 
 实际上，因为tail call 优化发生在幕后，因此除非你想要优化函数的执行，否则不需要考虑它。
 
-tail call optimization 最主要的应用场景是 递归函数 recursive functions。
+tail call optimization 最主要的应用场景是 递归函数 recursive functions，优化效果最好。
+
+考虑如下阶乘函数：
+
+```js
+function factorial(n) {
+
+    if (n <= 1) {
+        return 1;
+    } else {
+
+        // not optimized - must multiply after returning
+        return n * factorial(n - 1);
+    }
+}
+```
+
+
 
