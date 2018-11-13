@@ -22,5 +22,25 @@ ES6 对特定的tail calls 缩减了call stack的大小，仅仅在严格模式�
 2. tail call 返回后，函数没有其他后续工作要做
 3. tail call的结果被当做函数的值返回
 
+以下为正反几个例子：
+
+```js
+"use strict";
+
+function doSomething() {
+    // optimized
+    return doSomethingElse();
+}
+```
+
+```js
+"use strict";
+
+function doSomething() {
+    // not optimized - no return
+    doSomethingElse();
+}
+```
+
 
 
