@@ -114,5 +114,5 @@ function factorial(n, p = 1) {
 }
 ```
 
-
+当你写一个递归函数的时候，考虑一下tail call优化。
 
