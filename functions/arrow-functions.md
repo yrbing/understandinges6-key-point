@@ -218,5 +218,5 @@ var MyType = () => {},
 
 ### Arrow Functions and Arrays
 
-
+接受一个callback函数的数组方法，比如sort\(\)，map\(\)，reduce\(\)都可以使用箭头函数简化语法。
 
