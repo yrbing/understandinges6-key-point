@@ -42,5 +42,16 @@ function doSomething() {
 }
 ```
 
+perform an operation after returning from the tail call
+
+```js
+"use strict";
+
+function doSomething() {
+    // not optimized - must add after returning
+    return 1 + doSomethingElse();
+}
+```
+
 
 
