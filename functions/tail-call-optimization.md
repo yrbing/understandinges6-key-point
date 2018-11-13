@@ -14,7 +14,5 @@ function doSomething() {
 
 ### What’s Different?
 
-ES6 对特定的tail calls 缩减了call stack的大小，仅仅在严格模式下\(nonstrict mode tail calls are left untouched\)。
-
-不再创建一个新的堆栈帧，而是清空当前的堆栈帧，并且重用之。
+ES6 对特定的tail calls 缩减了call stack的大小，仅仅在严格模式下\(nonstrict mode tail calls are left untouched\)。不再创建一个新的堆栈帧，而是清空当前的堆栈帧，并且重用之。
 
