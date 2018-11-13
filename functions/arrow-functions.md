@@ -236,6 +236,8 @@ console.log(arrowFunction());       // 5
 
 ### Identifying Arrow Functions
 
+typeof和instanceof对待箭头函数和其他函数是一样的。
+
 ```js
 var comparator = (a, b) => a - b;
 
