@@ -116,3 +116,5 @@ function factorial(n, p = 1) {
 
 当你写一个递归函数的时候，考虑一下tail call优化。会有非常显著的性能优化，尤其是在computationally-expensive function中。
 
+tail call optimization 优化一些函数，以使用更小的call stack，更少的memory，并且避免 stack overflow errors。优化是由引擎自动执行的 when it is safe to do so。但你可以重写递归函数来利用这个优化。
+
