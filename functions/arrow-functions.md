@@ -234,3 +234,8 @@ console.log(arrowFunction());       // 5
 
 箭头函数可以access包含它的函数的arguments对象。因此不管箭头函数后来是在哪里执行的，arguments对象都是available的。
 
+### Identifying Arrow Functions
+
+  
+
+
