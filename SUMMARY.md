@@ -25,7 +25,7 @@
   * [Block-Level Functions](functions/block-level-functions.md)
   * [Arrow Functions](functions/arrow-functions.md)
   * [Tail Call Optimization](functions/tail-call-optimization.md)
-  * Summary
+  * [Summary](functions/summary.md)
 * [Expanded Object Functionality](expanded-object-functionality.md)
   * Object Categories
   * Object Literal Syntax Extensions
