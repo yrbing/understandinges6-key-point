@@ -1,5 +1,4 @@
-## Expanded Object Functionality {#leanpub-auto-expanded-object-functionality}
+# Expanded Object Functionality
 
-  
 
 
