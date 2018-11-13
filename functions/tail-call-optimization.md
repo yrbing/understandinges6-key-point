@@ -114,5 +114,5 @@ function factorial(n, p = 1) {
 }
 ```
 
-当你写一个递归函数的时候，考虑一下tail call优化。
+当你写一个递归函数的时候，考虑一下tail call优化。会有非常显著的性能优化，尤其是在computationally-expensive function中。
 
