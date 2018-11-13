@@ -63,5 +63,17 @@ function doSomething() {
 }
 ```
 
+```js
+"use strict";
+
+function doSomething() {
+    var num = 1,
+        func = () => num;
+
+    // not optimized - function is a closure
+    return func();
+}
+```
+
 
 
