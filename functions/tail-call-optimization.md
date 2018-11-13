@@ -53,5 +53,15 @@ function doSomething() {
 }
 ```
 
+```js
+"use strict";
+
+function doSomething() {
+    // not optimized - call isn't in tail position
+    var result = doSomethingElse();
+    return result;
+}
+```
+
 
 
