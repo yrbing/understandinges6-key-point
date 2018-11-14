@@ -15,7 +15,16 @@ function createPerson(name, age) {
 }
 ```
 
-ES6消除了这个冗余
+ES6消除了这个冗余：
+
+```js
+function createPerson(name, age) {
+    return {
+        name,
+        age
+    };
+}
+```
 
 
 
