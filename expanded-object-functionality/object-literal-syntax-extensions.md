@@ -26,5 +26,5 @@ function createPerson(name, age) {
 }
 ```
 
-
+当一个对象字面量的属性只有一个name，JS引擎查找包含的scope中同名的变量。并且赋值给对象字面量属性。
 
