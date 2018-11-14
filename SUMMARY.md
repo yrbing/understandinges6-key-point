@@ -28,7 +28,7 @@
   * [Summary](functions/summary.md)
 * [Expanded Object Functionality](expanded-object-functionality.md)
   * [Object Categories](expanded-object-functionality/object-categories.md)
-  * Object Literal Syntax Extensions
+  * [Object Literal Syntax Extensions](expanded-object-functionality/object-literal-syntax-extensions.md)
   * New Methods
   * Duplicate Object Literal Properties
   * [Own Property Enumeration Order](expanded-object-functionality/own-property-enumeration-order.md)
