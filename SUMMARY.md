@@ -27,7 +27,7 @@
   * [Tail Call Optimization](functions/tail-call-optimization.md)
   * [Summary](functions/summary.md)
 * [Expanded Object Functionality](expanded-object-functionality.md)
-  * Object Categories
+  * [Object Categories](expanded-object-functionality/object-categories.md)
   * Object Literal Syntax Extensions
   * New Methods
   * Duplicate Object Literal Properties
