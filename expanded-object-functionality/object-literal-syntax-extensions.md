@@ -4,5 +4,5 @@ The object literal is one of the most popular patterns in JavaScript. JSON is bu
 
 ### Property Initializer Shorthand
 
-
+在ES5和之前，对象字面量是简单的name-value pairs。
 
