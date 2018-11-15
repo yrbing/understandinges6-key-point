@@ -87,5 +87,19 @@ console.log(person["first name"]);      // "Nicholas"
 
 但如果属性名“first name”是变量的值或者需要计算获得，在ES5中，则无法在object literals中使用它来定义属性。
 
+在ES6中，computed property names是对象字面量语法的一部分，同样使用中括号：
+
+```js
+var lastName = "last name";
+
+var person = {
+    "first name": "Nicholas",
+    [lastName]: "Zakas"
+};
+
+console.log(person["first name"]);      // "Nicholas"
+console.log(person[lastName]);          // "Zakas"
+```
+
 
 
