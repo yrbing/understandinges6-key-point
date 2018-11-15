@@ -52,5 +52,5 @@ var person = {
 };
 ```
 
-
+二者的一个不同之处在于，concise methods需要使用super\(discussed later in the “Easy Prototype Access with Super References” section\),，nonconcise methods则不需要。
 
