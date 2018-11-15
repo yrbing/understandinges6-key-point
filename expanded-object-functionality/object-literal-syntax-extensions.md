@@ -41,5 +41,16 @@ var person = {
 };
 ```
 
+ES6:
+
+```js
+var person = {
+    name: "Nicholas",
+    sayName() {
+        console.log(this.name);
+    }
+};
+```
+
 
 
