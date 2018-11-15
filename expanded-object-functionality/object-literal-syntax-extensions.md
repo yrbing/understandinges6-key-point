@@ -101,5 +101,19 @@ console.log(person["first name"]);      // "Nicholas"
 console.log(person[lastName]);          // "Zakas"
 ```
 
+对象字面量中的中括号说明属性名需要进行计算
+
+```js
+var suffix = " name";
+
+var person = {
+    ["first" + suffix]: "Nicholas",
+    ["last" + suffix]: "Zakas"
+};
+
+console.log(person["first name"]);      // "Nicholas"
+console.log(person["last name"]);       // "Zakas"
+```
+
 
 
