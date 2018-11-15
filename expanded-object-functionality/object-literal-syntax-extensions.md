@@ -83,5 +83,9 @@ var person = {
 console.log(person["first name"]);      // "Nicholas"
 ```
 
+这种模式需要我们提前知道属性名，并且属性名可以用字符串字面量来表示。
+
+但如果属性名“first name”是变量的值或者需要计算获得，在ES5中，则无法在object literals中使用它来定义属性。
+
 
 
