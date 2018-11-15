@@ -73,5 +73,15 @@ console.log(person["first name"]);      // "Nicholas"
 console.log(person[lastName]);          // "Zakas"
 ```
 
+另外，还可以在object literals中直接使用string literals作为属性名：
+
+```js
+var person = {
+    "first name": "Nicholas"
+};
+
+console.log(person["first name"]);      // "Nicholas"
+```
+
 
 
