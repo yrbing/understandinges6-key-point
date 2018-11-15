@@ -32,3 +32,14 @@ function createPerson(name, age) {
 
 在ES5和之前，在对象中增加方法，必须指定一个name，以及完整的函数定义。
 
+```js
+var person = {
+    name: "Nicholas",
+    sayName: function() {
+        console.log(this.name);
+    }
+};
+```
+
+
+
