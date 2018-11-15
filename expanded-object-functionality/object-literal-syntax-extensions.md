@@ -58,6 +58,7 @@ var person = {
 
 ### Computed Property Names
 
-  
+ES5及之前，我们可以在object instances上计算属性名，使用square brackets将属性括起来，而不是使用dot notation。
 
+square brackets可以让我们用variables和string literals来指定属性名。
 
