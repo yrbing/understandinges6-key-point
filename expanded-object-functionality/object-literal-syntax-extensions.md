@@ -62,3 +62,16 @@ ES5及之前，我们可以在object instances上计算属性名，使用square 
 
 square brackets可以让我们用variables和string literals\(可能包含了不能使用在identifier中的字符串\)来指定属性名。
 
+```js
+var person = {},
+    lastName = "last name";
+
+person["first name"] = "Nicholas";
+person[lastName] = "Zakas";
+
+console.log(person["first name"]);      // "Nicholas"
+console.log(person[lastName]);          // "Zakas"
+```
+
+
+
