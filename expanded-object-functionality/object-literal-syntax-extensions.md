@@ -30,5 +30,5 @@ function createPerson(name, age) {
 
 ### Concise Methods
 
-
+在ES5和之前，在对象中增加方法，必须指定一个name，以及完整的函数定义。
 
