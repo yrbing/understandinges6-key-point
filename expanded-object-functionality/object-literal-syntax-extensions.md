@@ -56,5 +56,8 @@ var person = {
 
 > concise 方法 的 name 属性 的值是括号前面的 name。
 
+### Computed Property Names
+
+  
 
 
