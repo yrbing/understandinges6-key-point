@@ -6,3 +6,7 @@
 
 ES6在`Object`全局上引入了一些新方法。
 
+### The Object.is\(\) Method
+
+
+
