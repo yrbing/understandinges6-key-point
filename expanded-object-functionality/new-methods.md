@@ -36,3 +36,8 @@ console.log(Object.is(5, "5"));     // false
 
 大多数情况下，Object.is\(\) 和 === 操作符是一致的。唯一的不同在于 +0 和 -0，NaN。
 
+### The Object.assign\(\) Method
+
+  
+
+
