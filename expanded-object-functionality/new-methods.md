@@ -17,3 +17,22 @@ ES6在`Object`全局上引入了一些新方法。
 
 ES6引入了 `Object.is()`方法，弥补了全等操作符的不足之处。两个值如果是 same type, same value则被认为是相等的。
 
+```js
+console.log(+0 == -0);              // true
+console.log(+0 === -0);             // true
+console.log(Object.is(+0, -0));     // false
+
+console.log(NaN == NaN);            // false
+console.log(NaN === NaN);           // false
+console.log(Object.is(NaN, NaN));   // true
+
+console.log(5 == 5);                // true
+console.log(5 == "5");              // true
+console.log(5 === 5);               // true
+console.log(5 === "5");             // false
+console.log(Object.is(5, 5));       // true
+console.log(Object.is(5, "5"));     // false
+```
+
+
+
