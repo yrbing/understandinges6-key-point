@@ -4,3 +4,5 @@
 
 `Object`global has received an increasing number of methods when no other objects are more appropriate.
 
+ES6在`Object`上增加了一对新方法。
+
