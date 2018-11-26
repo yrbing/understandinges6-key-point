@@ -13,7 +13,7 @@ ES6在`Object`全局上引入了一些新方法。
 * equals operator\(==\)：类型转换
 * identically equals operator \(`===`\)：
   * +0 和 -0 被认为是相等的，但在JS引擎中它们是不同的
-  * `NaN === Nan` 返回 `false`，因此必须使用` isNaN() `来正确的检测 `NaN`
+  * `NaN === Nan` 返回 `false`，因此必须使用`isNaN()`来正确的检测 `NaN`
 
-
+ES6引入了 `Object.is() `方法，弥补了全等操作符的不足之处。
 
