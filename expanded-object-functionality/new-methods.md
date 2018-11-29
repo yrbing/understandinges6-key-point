@@ -38,6 +38,17 @@ console.log(Object.is(5, "5"));     // false
 
 ### The Object.assign\(\) Method
 
-  
+_Mixins_是JavaScript中最常用的对象组合\(object composition\)模式。在一个mixin中，一个对象接收另一个对象的属性和方法。很多JS库都有一个类似的mixin方法：
+
+```js
+function mixin(receiver, supplier) {
+    Object.keys(supplier).forEach(function(key) {
+        receiver[key] = supplier[key];
+    });
+
+    return receiver;
+}
+```
+
 
 
