@@ -30,7 +30,7 @@
   * [Object Categories](expanded-object-functionality/object-categories.md)
   * [Object Literal Syntax Extensions](expanded-object-functionality/object-literal-syntax-extensions.md)
   * [New Methods](expanded-object-functionality/new-methods.md)
-  * Duplicate Object Literal Properties
+  * [Duplicate Object Literal Properties](expanded-object-functionality/duplicate-object-literal-properties.md)
   * [Own Property Enumeration Order](expanded-object-functionality/own-property-enumeration-order.md)
   * More Powerful Prototypes
   * A Formal Method Definition
