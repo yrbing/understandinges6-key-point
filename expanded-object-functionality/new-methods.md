@@ -109,7 +109,7 @@ console.log(receiver.name);     // "file.js"
 
 Object.assign\(\)方法不是ECMAScript 6的重要补充，而是公共函数的标准化。
 
-当supplier有存取器属性时，Object.assign\(\)会在receiver上增加一个数据属性\(data property\)。因为使用的是assignment operator。
+**当supplier有存取器属性时，Object.assign\(\)会在receiver上增加一个数据属性\(data property\)。因为使用的是assignment operator。**
 
 ```js
 var receiver = {},
