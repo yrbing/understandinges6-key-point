@@ -68,3 +68,7 @@ myObject.emit("somethingChanged");
 
 ES6增加了Object.assign\(\)方法。之所以用assign而不是mixin，是因为assign反应了实际上发生的操作，mixin\(\)方法使用了assignment operator\(=\)，因此无法将寄存器属性\(accessor properties\)复制到receiver上仍作为寄存器属性。
 
+> Similar methods in various libraries may have other names for the same basic functionality; popular alternates include the`extend()`and`mix()`methods. There was also, briefly, an`Object.mixin()`method in ECMAScript 6 in addition to the`Object.assign()`method. The primary difference was that`Object.mixin()`also copied over accessor properties, but the method was removed due to concerns over the use of`super`\(discussed in the “Easy Prototype Access with Super References” section of this chapter\).
+
+没明白，看到后面再说好了？！！！！！！！！！！
+
