@@ -111,3 +111,21 @@ Object.assign\(\)方法不是ECMAScript 6的重要补充，而是公共函数的
 
 当supplier有存取器属性时，Object.assign\(\)会在receiver上增加一个数据属性\(data property\)。因为使用的是assignment operator。
 
+```js
+var receiver = {},
+    supplier = {
+        get name() {
+            return "file.js"
+        }
+    };
+
+Object.assign(receiver, supplier);
+
+var descriptor = Object.getOwnPropertyDescriptor(receiver, "name");
+
+console.log(descriptor.value);      // "file.js"
+console.log(descriptor.get);        // undefined
+```
+
+
+
