@@ -50,5 +50,21 @@ function mixin(receiver, supplier) {
 }
 ```
 
+mixin\(\)方法遍历supplier的自由属性，并将其copu到receiver上（**shallow copy**）。
 
+```js
+function EventTarget() { /*...*/ }
+EventTarget.prototype = {
+    constructor: EventTarget,
+    emit: function() { /*...*/ },
+    on: function() { /*...*/ }
+};
+
+var myObject = {};
+mixin(myObject, EventTarget.prototype);
+
+myObject.emit("somethingChanged");
+```
+
+ES6增加了Object.assign\(\)方法。之所以用assign而不是mixin，是因为assign反应了实际上发生的操作，mixin\(\)方法使用了assignment operator\(=\)，因此无法将寄存器属性\(accessor properties\)复制到receiver上仍作为寄存器属性。
 
