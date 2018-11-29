@@ -72,3 +72,5 @@ ES6增加了Object.assign\(\)方法。之所以用assign而不是mixin，是因�
 
 没明白，看到后面再说好了？！！！！！！！！！！
 
+任何地方使用mixin\(\)方法的，都可以替换成Object.assign\(\)。
+
