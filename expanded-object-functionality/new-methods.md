@@ -88,5 +88,24 @@ Object.assign(myObject, EventTarget.prototype);
 myObject.emit("somethingChanged");
 ```
 
+Object.assign\(\)方法接受多个suppliers，receiver按照传入顺序receive属性。因此后面的supplier可能会overwrite前面的supplier的提供的参数。
 
+```js
+var receiver = {};
+
+Object.assign(receiver,
+    {
+        type: "js",
+        name: "file.js"
+    },
+    {
+        type: "css"
+    }
+);
+
+console.log(receiver.type);     // "css"
+console.log(receiver.name);     // "file.js"
+```
+
+Object.assign\(\)方法不是ECMAScript 6的重要补充，而是公共函数的标准化。
 
