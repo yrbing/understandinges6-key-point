@@ -50,7 +50,7 @@ function mixin(receiver, supplier) {
 }
 ```
 
-mixin\(\)方法遍历supplier的自由属性，并将其copu到receiver上（**shallow copy**）。
+mixin\(\)方法遍历supplier的自由属性，并将其copy到receiver上（**shallow copy**）。
 
 ```js
 function EventTarget() { /*...*/ }
