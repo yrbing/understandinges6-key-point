@@ -1,3 +1,9 @@
+# Strings and Regular Expressions
+
+Strings 是编程中非常重要的一个数据类型之一。
+
+正则表达式给了开发者更多的能力去处理 Strings 。
+
 ## Summary
 
 Full Unicode support allows JavaScript to deal with UTF-16 characters in logical ways. The ability to transfer between code point and character via`codePointAt()`and`String.fromCodePoint()`is an important step for string manipulation. The addition of the regular expression`u`flag makes it possible to operate on code points instead of 16-bit characters, and the`normalize()`method allows for more appropriate string comparisons.
