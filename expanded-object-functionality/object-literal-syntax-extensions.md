@@ -52,7 +52,7 @@ var person = {
 };
 ```
 
-二者的一个不同之处在于，concise methods需要使用`super`\(discussed later in the “Easy Prototype Access with Super References” section\)，nonconcise methods则不需要。
+二者的一个不同之处在于，concise methods可以使用`super`\(discussed later in the “Easy Prototype Access with Super References” section\)，nonconcise methods则不可用。
 
 > concise 方法 的 name 属性 的值是括号前面的 name。
 

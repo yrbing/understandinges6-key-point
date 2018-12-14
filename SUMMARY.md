@@ -32,7 +32,6 @@
   * [New Methods](expanded-object-functionality/new-methods.md)
   * [Duplicate Object Literal Properties](expanded-object-functionality/duplicate-object-literal-properties.md)
   * [Own Property Enumeration Order](expanded-object-functionality/own-property-enumeration-order.md)
-  * More Powerful Prototypes
+  * [More Powerful Prototypes](expanded-object-functionality/more-powerful-prototypes.md)
   * A Formal Method Definition
   * Summary
-
