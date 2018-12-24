@@ -85,7 +85,8 @@ The `outputInfo()` function is called with a destructuring assignment expression
 > 如果`=`右边执行的值是`null`或者`undefined`，结构赋值表达式会报错。因为获取`null`或者`undefined`的属性会导致 runtime error。
 
 ### Default Values
-When you use a destructuring assignment statement, if you specify a local variable with a property name that doesn’t exist on the object, then that local variable is assigned a value of undefined. For example:
+
+解构赋值语句中，如果指定的本地变量名，在object上没有对应的属性名，这个local variable会被赋值undefined。
 
 ```js
 let node = {
@@ -100,9 +101,7 @@ console.log(name);      // "foo"
 console.log(value);     // undefined
 ```
 
-This code defines an additional local variable called value and attempts to assign it a value. However, there is no corresponding value property on the node object, so the variable is assigned the value of undefined as expected.
-
-You can optionally define a default value to use when a specified property doesn’t exist. To do so, insert an equals sign (=) after the property name and specify the default value, like this:
+可以定义一个default value，当对应的属性不存在或者值是`undefined`时，会使用默认值。
 
 ```js
 let node = {
@@ -117,11 +116,9 @@ console.log(name);      // "foo"
 console.log(value);     // true
 ```
 
-In this example, the variable value is given true as a default value. The default value is only used if the property is missing on node or has a value of undefined. Since there is no node.value property, the variable value uses the default value. This works similarly to the default parameter values for functions, as discussed in Chapter 3.
-
 ### Assigning to Different Local Variable Names
 
-Up to this point, each example destructuring assignment has used the object property name as the local variable name; for example, the value of node.type was stored in a type variable. That works well when you want to use the same name, but what if you don’t? ECMAScript 6 has an extended syntax that allows you to assign to a local variable with a different name, and that syntax looks like the object literal nonshorthand property initializer syntax. Here’s an example:
+有没有可能不使用对象的属性名作为对应的local变量名？ES6提供了扩展语法，你可以用不同的local变量名，这语法看上去就像是非简写的对象字面量初始化语法。
 
 ```js
 let node = {
@@ -135,9 +132,7 @@ console.log(localType);     // "Identifier"
 console.log(localName);     // "foo"
 ```
 
-This code uses destructuring assignment to declare the localType and localName variables, which contain the values from the node.type and node.name properties, respectively. The syntax type: localType says to read the property named type and store its value in the localType variable. This syntax is effectively the opposite of traditional object literal syntax, where the name is on the left of the colon and the value is on the right. In this case, the name is on the right of the colon and the location of the value to read is on the left.
-
-You can add default values when using a different variable name, as well. The equals sign and default value are still placed after the local variable name. For example:
+你还可以在这个基础上再加入default value。
 
 ```js
 let node = {
@@ -150,12 +145,11 @@ console.log(localType);     // "Identifier"
 console.log(localName);     // "bar"
 ```
 
-Here, the localName variable has a default value of "bar". The variable is assigned its default value because there’s no node.name property.
-
-So far, you’ve seen how to deal with destructuring of an object whose properties are primitive values. Object destructuring can also be used to retrieve values in nested object structures.
+以上的对象解构，对象属性都是原始值，对象解构也可以处理嵌套对象结构。
 
 ### Nested Object Destructuring
-By using a syntax similar to object literals, you can navigate into a nested object structure to retrieve just the information you want. Here’s an example:
+
+类似对象字面量的语法，进入嵌套对象结构的内部，仅仅获取需要的信息。
 
 ```js
 let node = {
@@ -179,9 +173,10 @@ console.log(start.line);        // 1
 console.log(start.column);      // 1
 ```
 
-The destructuring pattern in this example uses curly braces to indicate that the pattern should descend into the property named loc on node and look for the start property. Remember from the last section that whenever there’s a colon in a destructuring pattern, it means the identifier before the colon is giving a location to inspect, and the right side assigns a value. When there’s a curly brace after the colon, that indicates that the destination is nested another level into the object.
+在上一节中，解构中的冒号意味着，冒号colon前面的标识符indentifier是要去查询的位置，冒号右边是要去赋值的对象。当冒号右边是一个花括号时，说明目标嵌套在当前对象中。
+* 因此这里并没有声明一个loc变量 *
 
-You can go one step further and use a different name for the local variable as well:
+在这里也可以使用和属性不同的名字：
 
 ```js
 let node = {
@@ -206,11 +201,12 @@ console.log(localStart.line);   // 1
 console.log(localStart.column); // 1
 ```
 
-In this version of the code, `node.loc.start` is stored in a new local variable called `localStart`. Destructuring patterns can be nested to an arbitrary level of depth, with all capabilities available at each level.
+解构模式可以嵌套到任意深度级别，每个级别都可以使用所有的能力。
 
-Object destructuring is very powerful and has a lot of options, but array destructuring offers some unique capabilities that allow you to extract information from arrays.
+---
 
 Syntax Gotcha
+
 Be careful when using nested destructuring because you can inadvertently create a statement that has no effect. Empty curly braces are legal in object destructuring, however, they don’t do anything. For example:
 
 ```js
