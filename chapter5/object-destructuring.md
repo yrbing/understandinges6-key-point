@@ -82,7 +82,7 @@ console.log(name);      // "foo"
 The `outputInfo()` function is called with a destructuring assignment expression. 
 这个expression的值是`node`，即赋值运算符右边的值。`type` and `name`被正常赋值，同时`node`作为参数传入函数`outputInfo()`.
 
-> 如果`=`右边执行的值是`null`或者`undefined`，结构赋值表达式会报错。因为获取`null`或者`undefined`的属性会导致 runtime error。
+> 如果`=`右边执行的值是`null`或者`undefined`，解构赋值表达式会报错。因为获取`null`或者`undefined`的属性会导致 runtime error。
 
 ### Default Values
 
@@ -119,6 +119,8 @@ console.log(value);     // true
 ### Assigning to Different Local Variable Names
 
 有没有可能不使用对象的属性名作为对应的local变量名？ES6提供了扩展语法，你可以用不同的local变量名，这语法看上去就像是非简写的对象字面量初始化语法。
+
+*在项目里有时会碰到接口返回的字段命名规范不符合当前项目规范的情况，这种时候用解构时定义新的命名就很方便。还有一个好处是，如果接口的字段名称改变了，你只需要更改这一处代码。*
 
 ```js
 let node = {
