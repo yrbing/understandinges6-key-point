@@ -1,6 +1,6 @@
 # Symbols and Symbol Properties
 
-Symbols是ES6引入的原始类型（primitive type），加入了JS的原始类型大家庭。
+Symbols是ES6引入的原始类型（primitive type），Symbols加入了JS的原始类型大家庭。
 
 已有的家庭成员有：strings, numbers, booleans, `null`, and `undefined`. 
 
