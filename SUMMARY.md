@@ -22,6 +22,7 @@
   * [Block-Level Functions](chapter3/block-level-functions.md)
   * [Arrow Functions](chapter3/arrow-functions.md)
   * [Tail Call Optimization](chapter3/tail-call-optimization.md)
+  * [高阶函数和柯里化](chapter3/高阶函数和柯里化.md)
 * [Expanded Object Functionality](chapter4/introduction.md)
   * [Object Categories](chapter4/object-categories.md)
   * [Object Literal Syntax Extensions](chapter4/object-literal-syntax-extensions.md)
